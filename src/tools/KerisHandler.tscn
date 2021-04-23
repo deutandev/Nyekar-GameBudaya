@@ -17,7 +17,7 @@ tracks/0/keys = {
 "times": PoolRealArray( 0, 0.2, 0.25, 0.5 )
 }
 
-[node name="KerisHAndler" type="Position2D"]
+[node name="KerisHandler" type="Position2D"]
 rotation = 3.14159
 
 [node name="Keris" parent="." instance=ExtResource( 1 )]

@@ -6,7 +6,9 @@
 radius = 10.9099
 height = 90.7121
 
-[node name="Keris" type="Area2D"]
+[node name="Keris" type="Area2D" groups=[
+"weapons",
+]]
 
 [node name="Sprite" type="Sprite" parent="."]
 texture = ExtResource( 1 )
