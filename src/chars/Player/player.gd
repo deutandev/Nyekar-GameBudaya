@@ -1,11 +1,14 @@
 extends KinematicBody2D
 
 
-export var speed = 200
-export var friction = 0.01
-export var acceleration = 0.1
+export var speed = 300
+export var friction = 10
+export var acceleration = 60
 
 var velocity = Vector2()
+
+onready var animationPlayer = $AnimationPlayer
+onready var animationTree = $AnimationTree
 
 func get_input():
 	var input = Vector2()
@@ -22,7 +25,14 @@ func get_input():
 func _physics_process(delta):
 	var direction = get_input()
 	if direction.length() > 0:
-		velocity = lerp(velocity, direction.normalized() * speed, acceleration)
+		if direction.x > 0:
+			animationPlayer.play("runRight")
+		elif direction.x < 0:
+			animationPlayer.play("runLeft")
+		elif direction.y != 0:
+			animationPlayer.play("runRight")
+		velocity = lerp(velocity, direction.normalized() * speed, acceleration * delta)
 	else:
-		velocity = lerp(velocity, Vector2.ZERO, friction)
+		animationPlayer.play("idleRight")
+		velocity = lerp(velocity, Vector2.ZERO, friction * delta)
 	velocity = move_and_slide(velocity)
