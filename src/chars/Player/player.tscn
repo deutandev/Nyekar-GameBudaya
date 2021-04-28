@@ -7,7 +7,7 @@
 radius = 17.0
 height = 9.25311
 
-[sub_resource type="Animation" id=7]
+[sub_resource type="Animation" id=2]
 resource_name = "idleLeft"
 loop = true
 tracks/0/type = "value"
@@ -35,7 +35,7 @@ tracks/1/keys = {
 "values": [ true ]
 }
 
-[sub_resource type="Animation" id=6]
+[sub_resource type="Animation" id=3]
 resource_name = "idleRight"
 loop = true
 tracks/0/type = "value"
@@ -63,8 +63,7 @@ tracks/1/keys = {
 "values": [ false ]
 }
 
-[sub_resource type="Animation" id=2]
-resource_name = "runLeft"
+[sub_resource type="Animation" id=4]
 length = 0.6
 loop = true
 step = 0.15
@@ -93,8 +92,7 @@ tracks/1/keys = {
 "values": [ 0, 1, 2, 3, 4 ]
 }
 
-[sub_resource type="Animation" id=3]
-resource_name = "runRight"
+[sub_resource type="Animation" id=5]
 length = 0.6
 loop = true
 step = 0.15
@@ -123,9 +121,9 @@ tracks/1/keys = {
 "values": [ 1, 2, 3, 4, 5 ]
 }
 
-[sub_resource type="AnimationNodeStateMachine" id=4]
+[sub_resource type="AnimationNodeStateMachine" id=6]
 
-[sub_resource type="AnimationNodeStateMachinePlayback" id=5]
+[sub_resource type="AnimationNodeStateMachinePlayback" id=7]
 
 [node name="Player" type="KinematicBody2D"]
 script = ExtResource( 2 )
@@ -133,10 +131,9 @@ script = ExtResource( 2 )
 [node name="Player" type="Sprite" parent="."]
 scale = Vector2( 0.75, 0.75 )
 texture = ExtResource( 1 )
-flip_h = true
 hframes = 5
 vframes = 2
-frame = 5
+frame = 6
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2( 0, 41.3191 )
@@ -145,13 +142,13 @@ shape = SubResource( 1 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 autoplay = "idleRight"
-anims/idleLeft = SubResource( 7 )
-anims/idleRight = SubResource( 6 )
-anims/runLeft = SubResource( 2 )
-anims/runRight = SubResource( 3 )
+anims/idleLeft = SubResource( 2 )
+anims/idleRight = SubResource( 3 )
+anims/runLeft = SubResource( 4 )
+anims/runRight = SubResource( 5 )
 
 [node name="AnimationTree" type="AnimationTree" parent="."]
-tree_root = SubResource( 4 )
+tree_root = SubResource( 6 )
 anim_player = NodePath("../AnimationPlayer")
 active = true
-parameters/playback = SubResource( 5 )
+parameters/playback = SubResource( 7 )

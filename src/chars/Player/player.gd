@@ -6,6 +6,7 @@ export var friction = 10
 export var acceleration = 60
 
 var velocity = Vector2()
+var cur_anim = "runRight"
 
 onready var animationPlayer = $AnimationPlayer
 onready var animationTree = $AnimationTree
@@ -27,12 +28,17 @@ func _physics_process(delta):
 	if direction.length() > 0:
 		if direction.x > 0:
 			animationPlayer.play("runRight")
+			cur_anim = "runRight"
 		elif direction.x < 0:
 			animationPlayer.play("runLeft")
+			cur_anim = "runLeft"
 		elif direction.y != 0:
-			animationPlayer.play("runRight")
+			animationPlayer.play(cur_anim)
 		velocity = lerp(velocity, direction.normalized() * speed, acceleration * delta)
 	else:
-		animationPlayer.play("idleRight")
+		if cur_anim == "runRight":
+			animationPlayer.play("idleRight")
+		else:
+			animationPlayer.play("idleLeft")
 		velocity = lerp(velocity, Vector2.ZERO, friction * delta)
 	velocity = move_and_slide(velocity)
