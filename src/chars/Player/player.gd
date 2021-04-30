@@ -10,6 +10,8 @@ var cur_anim = "runRight"
 
 onready var animationPlayer = $AnimationPlayer
 onready var animationTree = $AnimationTree
+onready var animationKeris = $KerisHandler/AnimationPlayer
+onready var imgKeris = $KerisHandler/Keris/Sprite
 
 func get_input():
 	var input = Vector2()
@@ -26,6 +28,7 @@ func get_input():
 func _physics_process(delta):
 	var direction = get_input()
 	if direction.length() > 0:
+		imgKeris.visible = false
 		if direction.x > 0:
 			animationPlayer.play("runRight")
 			cur_anim = "runRight"
@@ -42,3 +45,10 @@ func _physics_process(delta):
 			animationPlayer.play("idleLeft")
 		velocity = lerp(velocity, Vector2.ZERO, friction * delta)
 	velocity = move_and_slide(velocity)
+	
+	if Input.is_action_pressed("attack"):
+		imgKeris.visible = true
+		if cur_anim == "runRight":
+			animationKeris.play("attackRight")
+		else:
+			animationKeris.play("attackLeft")

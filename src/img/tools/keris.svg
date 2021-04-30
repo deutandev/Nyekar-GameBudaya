@@ -390,9 +390,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="79.512963"
-     inkscape:cy="379.99999"
+     inkscape:zoom="1.55"
+     inkscape:cx="-51.201329"
+     inkscape:cy="269.99999"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -401,7 +401,8 @@
      inkscape:window-height="720"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     inkscape:snap-page="true" />
   <metadata
      id="metadata24078">
     <rdf:RDF>
@@ -410,7 +411,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -457,6 +458,409 @@
          inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpenganassets/tools/keris.png"
          inkscape:export-xdpi="96"
          inkscape:export-ydpi="96" />
+    </g>
+    <rect
+       style="opacity:0;fill:#98ff86;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:square;stroke-miterlimit:1.41;paint-order:markers fill stroke"
+       id="rect9659"
+       width="34.395832"
+       height="47.625"
+       x="50.399693"
+       y="47.625004" />
+    <g
+       id="g9709"
+       transform="matrix(0.26458333,0,0,0.26458333,50.399692,50.403286)">
+      <g
+         id="g9707">
+        <path
+           style="fill:#977251;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 77.934424,151.78964 c 0.220012,1.04913 0.42224,2.16929 0.58429,3.33102 5.024373,0.31089 8.134625,-0.21099 8.134625,-0.21099 -0.198489,-1.47845 -0.582975,-3.38572 -0.979152,-5.16612 -1.345363,-0.11163 -4.721387,0.0771 -7.739763,2.04609 z"
+           id="path9661"
+           sodipodi:nodetypes="ccccc"
+           inkscape:transform-center-x="-1.7385118"
+           inkscape:transform-center-y="12.600934"
+           inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpenganassets/Player/idle/idle01.png"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96" />
+        <path
+           style="fill:#000000;stroke:#000000;stroke-width:0.160603px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 84.860788,136.71326 -10.633552,0.0634 c 0,0 2.283928,7.02046 3.300491,15.58248 6.268587,0.45568 10.149026,-0.30927 10.149026,-0.30927 -0.637968,-5.58256 -2.815965,-15.33652 -2.815965,-15.33652 z"
+           id="path9663"
+           sodipodi:nodetypes="ccccc"
+           inkscape:transform-center-x="-0.39662471"
+           inkscape:transform-center-y="4.7406251"
+           inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpenganassets/Player/idle/idle01.png"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96" />
+        <path
+           id="path9665"
+           style="fill:#000000;stroke:#b0e0e6;stroke-width:0;stroke-linecap:square;stroke-miterlimit:2.66667;paint-order:markers fill stroke"
+           d="m 86.723727,153.45296 c 1.919473,0 3.465826,1.81564 3.465826,4.06942 0,0.0862 -0.01677,0.16676 -0.02098,0.25178 H 76.356284 c 0,-0.085 -0.02098,-0.16538 -0.02098,-0.25178 0,-2.25378 -0.725991,-4.06942 3.463561,-4.06942 z"
+           sodipodi:nodetypes="ssccsss"
+           inkscape:transform-center-x="-2.6830129"
+           inkscape:transform-center-y="15.745553"
+           inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpenganassets/Player/idle/idle01.png"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96" />
+        <g
+           id="g9673">
+          <path
+             style="fill:#977251;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 67.8008,151.22792 c -0.270601,1.22062 -0.522027,2.55118 -0.715923,3.94129 -5.024379,0.31089 -8.134627,-0.211 -8.134627,-0.211 0.164837,-1.2278 0.457951,-2.75135 0.77951,-4.25237 3.37875,-0.9737 4.486827,-0.3997 8.07104,0.52208 z"
+             id="path9667"
+             sodipodi:nodetypes="ccccc"
+             inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpenganassets/Player/idle/idle01.png"
+             inkscape:export-xdpi="96"
+             inkscape:export-ydpi="96" />
+          <path
+             id="path9669"
+             style="fill:#000000;stroke:#b0e0e6;stroke-width:0;stroke-linecap:square;stroke-miterlimit:2.66667;paint-order:markers fill stroke"
+             d="m 60.071401,153.45296 c -3.775739,0 -3.465813,1.81564 -3.465813,4.06942 0,0.0862 0.01675,0.16676 0.021,0.25178 H 70.43885 c 0,-0.085 0.02098,-0.16538 0.02098,-0.25178 0,-2.25378 -1.544101,-4.06942 -3.463591,-4.06942 z"
+             sodipodi:nodetypes="ssccsss"
+             inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpenganassets/Player/idle/idle01.png"
+             inkscape:export-xdpi="96"
+             inkscape:export-ydpi="96" />
+          <path
+             style="fill:#000000;stroke:#000000;stroke-width:0.160603px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 61.265351,136.71326 10.633559,0.0634 c 0,0 -2.283935,7.02046 -3.300498,15.58248 -6.268587,0.45568 -10.149012,-0.30927 -10.149012,-0.30927 0.637962,-5.58256 2.815951,-15.33652 2.815951,-15.33652 z"
+             id="path9671"
+             sodipodi:nodetypes="ccccc"
+             inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpenganassets/Player/idle/idle01.png"
+             inkscape:export-xdpi="96"
+             inkscape:export-ydpi="96" />
+        </g>
+        <g
+           id="g9705">
+          <g
+             id="g9679"
+             transform="matrix(-1,0,0,1,146.02603,0)">
+            <path
+               id="path9675"
+               style="fill:#977251;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+               d="m 57.363468,134.67263 c 0.143216,1.48682 -0.168884,2.74137 -3.89418,3.0922 -3.34195,0.315 -4.354539,-0.86271 -4.497751,-2.34952 -0.06555,-0.68046 0.165567,-1.26431 0.793581,-1.80316 0.129669,-0.11121 0.153805,-3.77471 0.306084,-3.87466 0.721849,-0.47376 1.68461,-0.8105 2.762025,-0.91428 1.080599,-0.10409 2.092728,0.0439 2.892847,0.37319 0.161328,0.0664 0.431505,3.69758 0.574382,3.77814 0.726241,0.40942 0.997091,1.0138 1.063012,1.69809 z"
+               sodipodi:nodetypes="sssssssss"
+               inkscape:transform-center-x="12.969472"
+               inkscape:transform-center-y="20.164046" />
+            <path
+               style="fill:#000e62;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="m 59.502415,88.711478 c -3.659443,1.464042 -6.934029,7.206025 -8.797457,14.859822 -2.048252,8.41294 -2.467475,19.08619 -1.593022,27.76922 0,0 4.134002,2.2413 7.925666,-0.78751 0.976974,-11.2934 0.43584,-20.06532 2.445456,-23.92505 2.009617,-3.85974 5.518785,-11.856493 5.494311,-14.017235 -0.02613,-2.30499 -1.714062,-5.288444 -5.474954,-3.899247 z"
+               id="path9677"
+               sodipodi:nodetypes="cscczsc"
+               inkscape:transform-center-x="0.47263625"
+               inkscape:transform-center-y="-0.22704227" />
+          </g>
+          <path
+             id="path9681"
+             style="fill:#806248;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+             d="M 82.040788,77.824089 H 66.519076 v 31.815481 h 15.521712 z"
+             inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpenganassets/Player/idle/idle01.png"
+             inkscape:export-xdpi="96"
+             inkscape:export-ydpi="96" />
+          <path
+             style="fill:#977251;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 102.75835,40.549791 c 2.10177,4.88175 -0.73366,15.897401 0.0659,23.686648 0.52473,5.111555 3.50715,8.427152 0.90978,12.216254 C 97.178874,86.01584 69.45219,87.738679 59.352065,78.046465 49.2518,68.354204 49.996238,47.066491 49.996238,47.066491 l 12.642577,-20.902099 26.531046,0.776275 c 0,0 10.107561,5.523824 13.588519,13.609124 z"
+             id="path9683"
+             sodipodi:nodetypes="ssszcccs"
+             inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpenganassets/Player/idle/idle01.png"
+             inkscape:export-xdpi="96"
+             inkscape:export-ydpi="96" />
+          <path
+             style="fill:#837dfb;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 82.991627,86.895093 c 10.923164,10.050898 11.23885,35.008627 6.926726,52.725847 -1.576403,5.58242 -29.163443,5.82233 -35.852127,-1.3879 -2.801337,-8.83049 -3.74085,-39.853336 7.283475,-49.935558 1.87181,-0.756741 2.780415,-1.31878 4.777238,-1.478039 1.515888,-0.120877 6.531402,6.285351 10.574122,8.819111 0.197689,0.08888 0.253689,1.219325 0.785203,2.554465 0.853137,-0.068 0.378489,-2.02589 1.772865,-3.404077 2.77347,-2.74125 2.508373,-5.6744 2.453357,-7.791852 -0.01126,-0.427585 0.852753,-0.06788 1.279141,-0.101997 z"
+             id="path9685"
+             sodipodi:nodetypes="ccccsccssc"
+             inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpenganassets/Player/idle/idle01.png"
+             inkscape:export-xdpi="96"
+             inkscape:export-ydpi="96" />
+          <path
+             style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.20459px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 46.478137,60.619905 11.661313,8.178347 0.160025,-11.326961 -1.564138,-7.858012 5.102103,-10.360163 12.114471,0.855563 -3.466933,-5.263325 19.848823,5.884875 -2.359863,-4.606225 13.650012,7.7611 -0.72875,-3.335313 7.505,5.333375 -1.33379,-15.433912 4.05389,0.5312 -9.61979,-15.921812 4.89053,-1.569613 -17.04829,-1.734462 1.340776,-4.0749012 -20.297061,3.9707252 0.299011,-9.1134999 -9.069411,7.4716379 -13.89004,-5.2728129 1.802613,9.0106379 -12.805388,5.070713 7.363913,1.143437 -10.009325,10.907275 10.671237,-2.565262 -14.360125,11.097662 8.124037,5.404425 -0.01825,7.434387 z"
+             id="path9687"
+             sodipodi:nodetypes="ccccccccccccccccccccccccccccccc"
+             inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpenganassets/Player/idle/idle01.png"
+             inkscape:export-xdpi="96"
+             inkscape:export-ydpi="96" />
+          <path
+             style="fill:#977251;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 55.320137,71.311117 c -1.631812,0.0075 -2.936312,0.456901 -4.568125,0.4632 C 43.311051,66.820202 42.2149,56.102929 50.630137,54.820804 l 3.730788,2.529988 1.274925,9.157712 2.046162,2.175887 c -0.886262,1.668385 -1.47545,0.958341 -2.361687,2.626726 z"
+             id="path9689"
+             sodipodi:nodetypes="cccccccc"
+             inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpenganassets/Player/idle/idle01.png"
+             inkscape:export-xdpi="96"
+             inkscape:export-ydpi="96" />
+          <path
+             style="fill:#000e62;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 78.099935,94.912089 c 0,0 -0.756012,2.136901 -0.697523,4.297315 l -0.607822,43.524106 1.965386,-0.0673 1.111123,-48.095516 z"
+             id="path9691"
+             sodipodi:nodetypes="cccccc"
+             inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpenganassets/Player/idle/idle01.png"
+             inkscape:export-xdpi="96"
+             inkscape:export-ydpi="96" />
+          <path
+             id="path9693"
+             style="fill:#000e62;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+             d="m 82.991627,86.895093 c 0,0 -0.131716,-2.096912 -0.970175,-2.414163 0,0 -0.03473,5.517138 -3.921511,10.431159 0.709635,-0.137286 1.59837,0.618827 3.288195,2.603887 0,-4.106269 1.603491,-10.620883 1.603491,-10.620883 z"
+             sodipodi:nodetypes="ccccc"
+             inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpenganassets/Player/idle/idle01.png"
+             inkscape:export-xdpi="96"
+             inkscape:export-ydpi="96" />
+          <path
+             style="fill:#837dfb;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 72.869227,96.048065 1.514797,3.713938 -0.607823,43.504067 -2.672325,-0.2337 -0.403123,-49.047214 z"
+             id="path9695"
+             sodipodi:nodetypes="cccccc"
+             inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpenganassets/Player/idle/idle01.png"
+             inkscape:export-xdpi="96"
+             inkscape:export-ydpi="96" />
+          <path
+             id="path9697"
+             style="fill:#000e62;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+             d="m 65.568853,87.031289 c 0,0 0.314146,-2.233108 1.003461,-2.550359 -0.476812,1.250335 5.056101,7.833464 10.326436,11.246513 0,0 -3.376789,-0.08188 -3.051111,2.017422 -7.425002,-4.898749 -8.278792,-10.713576 -8.278786,-10.713576 z"
+             sodipodi:nodetypes="ccccc"
+             inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpenganassets/Player/idle/idle01.png"
+             inkscape:export-xdpi="96"
+             inkscape:export-ydpi="96" />
+          <g
+             id="g9703">
+            <path
+               id="path9699"
+               style="fill:#977251;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+               d="m 57.363468,134.67263 c 0.143216,1.48682 -0.168884,2.74137 -3.89418,3.0922 -3.34195,0.315 -4.354539,-0.86271 -4.497751,-2.34952 -0.06555,-0.68046 0.165567,-1.26431 0.793581,-1.80316 0.129669,-0.11121 0.153805,-3.77471 0.306084,-3.87466 0.721849,-0.47376 1.68461,-0.8105 2.762025,-0.91428 1.080599,-0.10409 2.092728,0.0439 2.892847,0.37319 0.161328,0.0664 0.431505,3.69758 0.574382,3.77814 0.726241,0.40942 0.997091,1.0138 1.063012,1.69809 z"
+               sodipodi:nodetypes="sssssssss"
+               inkscape:transform-center-x="12.969472"
+               inkscape:transform-center-y="20.164046" />
+            <path
+               style="fill:#000e62;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="m 59.502415,88.711478 c -3.659443,1.464042 -6.934029,7.206025 -8.797457,14.859822 -2.048252,8.41294 -2.467475,19.08619 -1.593022,27.76922 0,0 4.134002,2.2413 7.925666,-0.78751 0.976974,-11.2934 0.43584,-20.06532 2.445456,-23.92505 2.009617,-3.85974 5.518785,-11.856493 5.494311,-14.017235 -0.02613,-2.30499 -1.714062,-5.288444 -5.474954,-3.899247 z"
+               id="path9701"
+               sodipodi:nodetypes="cscczsc"
+               inkscape:transform-center-x="0.47263625"
+               inkscape:transform-center-y="-0.22704227" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect
+       style="opacity:0;fill:#98ff86;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:square;stroke-miterlimit:1.41;paint-order:markers fill stroke"
+       id="rect998"
+       width="34.395832"
+       height="47.625"
+       x="50.399693"
+       y="95.25" />
+    <path
+       style="fill:#977251;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 71.019841,138.18929 c 0.05821,0.27758 0.111718,0.57396 0.154594,0.88133 1.329365,0.0823 2.152286,-0.0558 2.152286,-0.0558 -0.05252,-0.39117 -0.154245,-0.89581 -0.259067,-1.36687 -0.355961,-0.0295 -1.249201,0.0204 -2.047813,0.54136 z"
+       id="path1000"
+       sodipodi:nodetypes="ccccc"
+       inkscape:transform-center-x="-1.7385118"
+       inkscape:transform-center-y="12.600934"
+       inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpenganassets/Player/idle/idle01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.0424929px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 72.852442,134.20033 -2.813461,0.0168 c 0,0 0.60429,1.85749 0.873255,4.12286 1.658564,0.12057 2.685263,-0.0818 2.685263,-0.0818 -0.168795,-1.47705 -0.745057,-4.05778 -0.745057,-4.05778 z"
+       id="path1002"
+       sodipodi:nodetypes="ccccc"
+       inkscape:transform-center-x="-0.39662471"
+       inkscape:transform-center-y="4.7406251"
+       inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpenganassets/Player/idle/idle01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1004"
+       style="fill:#000000;stroke:#b0e0e6;stroke-width:0;stroke-linecap:square;stroke-miterlimit:2.66667;paint-order:markers fill stroke"
+       d="m 73.345344,138.62938 c 0.507861,0 0.917,0.48039 0.917,1.0767 0,0.0228 -0.0044,0.0441 -0.0056,0.0666 h -3.654501 c 0,-0.0225 -0.0056,-0.0438 -0.0056,-0.0666 0,-0.59631 -0.192085,-1.0767 0.9164,-1.0767 z"
+       sodipodi:nodetypes="ssccsss"
+       inkscape:transform-center-x="-2.6830129"
+       inkscape:transform-center-y="15.745553"
+       inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpenganassets/Player/idle/idle01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <g
+       id="g1012"
+       transform="matrix(0.26458333,0,0,0.26458333,50.399692,98.028282)">
+      <path
+         style="fill:#977251;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 67.8008,151.22792 c -0.270601,1.22062 -0.522027,2.55118 -0.715923,3.94129 -5.024379,0.31089 -8.134627,-0.211 -8.134627,-0.211 0.164837,-1.2278 0.457951,-2.75135 0.77951,-4.25237 3.37875,-0.9737 4.486827,-0.3997 8.07104,0.52208 z"
+         id="path1006"
+         sodipodi:nodetypes="ccccc"
+         inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpenganassets/Player/idle/idle01.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <path
+         id="path1008"
+         style="fill:#000000;stroke:#b0e0e6;stroke-width:0;stroke-linecap:square;stroke-miterlimit:2.66667;paint-order:markers fill stroke"
+         d="m 60.071401,153.45296 c -3.775739,0 -3.465813,1.81564 -3.465813,4.06942 0,0.0862 0.01675,0.16676 0.021,0.25178 H 70.43885 c 0,-0.085 0.02098,-0.16538 0.02098,-0.25178 0,-2.25378 -1.544101,-4.06942 -3.463591,-4.06942 z"
+         sodipodi:nodetypes="ssccsss"
+         inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpenganassets/Player/idle/idle01.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:0.160603px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 61.265351,136.71326 10.633559,0.0634 c 0,0 -2.283935,7.02046 -3.300498,15.58248 -6.268587,0.45568 -10.149012,-0.30927 -10.149012,-0.30927 0.637962,-5.58256 2.815951,-15.33652 2.815951,-15.33652 z"
+         id="path1010"
+         sodipodi:nodetypes="ccccc"
+         inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpenganassets/Player/idle/idle01.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+    </g>
+    <g
+       id="g1018"
+       transform="matrix(0.21661607,0.15192701,-0.15192701,0.21661607,73.115378,93.076507)"
+       inkscape:transform-center-x="3.972865"
+       inkscape:transform-center-y="3.7828973">
+      <path
+         id="path1014"
+         style="fill:#977251;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+         d="m 57.363468,134.67263 c 0.143216,1.48682 -0.168884,2.74137 -3.89418,3.0922 -3.34195,0.315 -4.354539,-0.86271 -4.497751,-2.34952 -0.06555,-0.68046 0.165567,-1.26431 0.793581,-1.80316 0.129669,-0.11121 0.153805,-3.77471 0.306084,-3.87466 0.721849,-0.47376 1.68461,-0.8105 2.762025,-0.91428 1.080599,-0.10409 2.092728,0.0439 2.892847,0.37319 0.161328,0.0664 0.431505,3.69758 0.574382,3.77814 0.726241,0.40942 0.997091,1.0138 1.063012,1.69809 z"
+         sodipodi:nodetypes="sssssssss"
+         inkscape:transform-center-x="12.969472"
+         inkscape:transform-center-y="20.164046" />
+      <path
+         style="fill:#000e62;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 59.502415,88.711478 c -3.659443,1.464042 -6.934029,7.206025 -8.797457,14.859822 -2.048252,8.41294 -2.467475,19.08619 -1.593022,27.76922 0,0 4.134002,2.2413 7.925666,-0.78751 0.976974,-11.2934 0.43584,-20.06532 2.445456,-23.92505 2.009617,-3.85974 5.518785,-11.856493 5.494311,-14.017235 -0.02613,-2.30499 -1.714062,-5.288444 -5.474954,-3.899247 z"
+         id="path1016"
+         sodipodi:nodetypes="cscczsc"
+         inkscape:transform-center-x="0.47263625"
+         inkscape:transform-center-y="-0.22704227" />
+    </g>
+    <path
+       id="path1020"
+       style="fill:#806248;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+       d="m 72.106317,118.61924 h -4.106786 v 8.41784 h 4.106786 z"
+       inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpenganassets/Player/idle/idle01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#977251;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 77.587838,108.75708 c 0.556094,1.29163 -0.194114,4.20619 0.01744,6.26709 0.138835,1.35244 0.927934,2.22969 0.240713,3.23222 -1.734385,2.53025 -9.070403,2.98608 -11.742728,0.42169 -2.672362,-2.56442 -2.475396,-8.19679 -2.475396,-8.19679 l 3.345015,-5.53035 7.019673,0.20539 c 0,0 2.674292,1.46152 3.595295,3.60075 z"
+       id="path1022"
+       sodipodi:nodetypes="ssszcccs"
+       inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpenganassets/Player/idle/idle01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#837dfb;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 72.357893,121.01928 c 2.890087,2.6593 2.973612,9.26269 1.832696,13.95038 -0.41709,1.47701 -7.716161,1.54049 -9.485875,-0.36722 -0.741187,-2.3364 -0.989766,-10.54453 1.927086,-13.21212 0.49525,-0.20022 0.735652,-0.34892 1.263978,-0.39106 0.401078,-0.032 1.7281,1.663 2.797736,2.33339 0.05231,0.0235 0.06712,0.32261 0.207752,0.67587 0.225726,-0.018 0.100142,-0.53602 0.46907,-0.90066 0.733814,-0.72529 0.663674,-1.50136 0.649118,-2.0616 -0.003,-0.11313 0.225624,-0.018 0.338439,-0.027 z"
+       id="path1024"
+       sodipodi:nodetypes="ccccsccssc"
+       inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpenganassets/Player/idle/idle01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.318714px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 62.697032,114.0673 3.085389,2.16385 0.04234,-2.99692 -0.413845,-2.0791 1.349932,-2.74113 3.205287,0.22637 -0.917293,-1.39259 5.251668,1.55704 -0.624381,-1.21873 3.611566,2.05346 -0.192815,-0.88247 1.985698,1.41112 -0.352899,-4.08355 1.072592,0.14054 -2.545236,-4.21264 1.293953,-0.4153 -4.510694,-0.45891 0.354747,-1.07815 -5.370264,1.05059 0.07911,-2.411279 -2.399615,1.976869 -3.675073,-1.395096 0.476941,2.384066 -3.388092,1.34162 1.948368,0.30254 -2.6483,2.88588 2.823431,-0.67872 -3.799449,2.93625 2.149484,1.42992 -0.0048,1.96702 z"
+       id="path1026"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccc"
+       inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpenganassets/Player/idle/idle01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#977251;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 65.036478,116.89601 c -0.43175,0.002 -0.776899,0.12089 -1.20865,0.12256 -1.968754,-1.31078 -2.258777,-4.14639 -0.03225,-4.48562 l 0.987105,0.6694 0.337323,2.42297 0.541381,0.57571 c -0.23449,0.44142 -0.39038,0.25356 -0.624863,0.69498 z"
+       id="path1028"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpenganassets/Player/idle/idle01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#000e62;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 71.063633,123.14044 c 0,0 -0.200028,0.56539 -0.184553,1.137 l -0.16082,11.51575 0.520009,-0.0178 0.293984,-12.72527 z"
+       id="path1030"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpenganassets/Player/idle/idle01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1032"
+       style="fill:#000e62;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+       d="m 72.357893,121.01928 c 0,0 -0.03485,-0.55481 -0.256692,-0.63875 0,0 -0.0092,1.45974 -1.037567,2.75991 0.187758,-0.0363 0.422903,0.16373 0.870002,0.68894 0,-1.08645 0.424257,-2.8101 0.424257,-2.8101 z"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpenganassets/Player/idle/idle01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#837dfb;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 69.679675,123.441 0.40079,0.98264 -0.16082,11.51046 -0.707053,-0.0618 -0.106659,-12.97707 z"
+       id="path1034"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpenganassets/Player/idle/idle01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1036"
+       style="fill:#000e62;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+       d="m 67.748117,121.05531 c 0,0 0.08312,-0.59084 0.2655,-0.67478 -0.126157,0.33082 1.33776,2.0726 2.732202,2.97564 0,0 -0.893442,-0.0217 -0.807273,0.53377 -1.964532,-1.29612 -2.19043,-2.83463 -2.190429,-2.83463 z"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpenganassets/Player/idle/idle01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <g
+       id="g1128"
+       inkscape:transform-center-x="-5.7056313"
+       inkscape:transform-center-y="-11.886955"
+       transform="rotate(-1.544303,66.449856,122.83375)">
+      <g
+         id="g996"
+         transform="matrix(0.60848334,0,0,0.60848334,52.526223,-236.2088)"
+         inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpenganassets/tools/keris.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"
+         inkscape:transform-center-x="-1.7083317"
+         inkscape:transform-center-y="-17.100779">
+        <g
+           id="g992">
+          <rect
+             style="opacity:1;fill:#2c2c2c;fill-opacity:1;stroke-width:0.155772;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke;filter:url(#filter5630-8)"
+             id="rect988"
+             width="6.8628354"
+             height="15.317614"
+             x="35.017017"
+             y="586.75146"
+             ry="3.4670758"
+             inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpenganassets/tools/keris.png"
+             inkscape:export-xdpi="96"
+             inkscape:export-ydpi="96" />
+          <path
+             id="path990"
+             style="opacity:1;fill:#556b2f;fill-opacity:1;stroke-width:0.199431;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke;filter:url(#filter5676-6)"
+             d="m 39.141728,538.93091 c 0.141347,3.04675 0.445041,5.25651 1.592813,8.81849 1.184669,3.67648 0.940382,4.8897 0.894899,6.61041 -0.09687,3.66482 -1.191128,6.21754 -0.987261,9.14718 0.203868,2.92965 2.457421,4.76168 2.510442,8.79515 -0.888659,3.28813 -1.789813,7.09047 -1.709284,9.64467 0.09092,2.88385 0.440774,3.16523 2.342684,5.86387 l -9.658258,0.0586 c 0,0 -0.68221,-5.80898 -0.118848,-9.77056 0.563363,-3.96158 1.794638,-4.77035 1.799666,-8.27497 0.0036,-2.48549 -0.783729,-4.67283 -0.644509,-7.6969 0.13922,-3.02407 2.420184,-5.30841 2.304023,-9.0518 -0.0491,-1.58222 -0.02501,-3.54245 0.13216,-5.6214 0.214673,-2.83962 0.743735,-5.53854 1.541473,-8.52271 z"
+             sodipodi:nodetypes="csszcscczszsscc"
+             inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpenganassets/tools/keris.png"
+             inkscape:export-xdpi="96"
+             inkscape:export-ydpi="96" />
+        </g>
+        <ellipse
+           style="opacity:1;fill:#2c2c2c;fill-opacity:1;stroke-width:0.373141;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke;filter:url(#filter5722-6)"
+           id="ellipse994"
+           cx="37.239666"
+           cy="599.54065"
+           rx="3.3553879"
+           ry="3.3902559"
+           inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpenganassets/tools/keris.png"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96" />
+      </g>
+      <g
+         id="g1042"
+         transform="matrix(0.05796625,-0.25815548,0.25815548,0.05796625,38.851813,133.1128)"
+         inkscape:transform-center-x="-4.8220666"
+         inkscape:transform-center-y="2.217534">
+        <path
+           id="path1038"
+           style="fill:#977251;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+           d="m 57.363468,134.67263 c 0.143216,1.48682 -0.168884,2.74137 -3.89418,3.0922 -3.34195,0.315 -4.354539,-0.86271 -4.497751,-2.34952 -0.06555,-0.68046 0.165567,-1.26431 0.793581,-1.80316 0.129669,-0.11121 0.153805,-3.77471 0.306084,-3.87466 0.721849,-0.47376 1.68461,-0.8105 2.762025,-0.91428 1.080599,-0.10409 2.092728,0.0439 2.892847,0.37319 0.161328,0.0664 0.431505,3.69758 0.574382,3.77814 0.726241,0.40942 0.997091,1.0138 1.063012,1.69809 z"
+           sodipodi:nodetypes="sssssssss"
+           inkscape:transform-center-x="12.969472"
+           inkscape:transform-center-y="20.164046" />
+        <path
+           style="fill:#000e62;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 59.502415,88.711478 c -3.659443,1.464042 -6.934029,7.206025 -8.797457,14.859822 -2.048252,8.41294 -2.467475,19.08619 -1.593022,27.76922 0,0 4.134002,2.2413 7.925666,-0.78751 0.976974,-11.2934 0.43584,-20.06532 2.445456,-23.92505 2.009617,-3.85974 5.518785,-11.856493 5.494311,-14.017235 -0.02613,-2.30499 -1.714062,-5.288444 -5.474954,-3.899247 z"
+           id="path1040"
+           sodipodi:nodetypes="cscczsc"
+           inkscape:transform-center-x="0.47263625"
+           inkscape:transform-center-y="-0.22704227" />
+      </g>
     </g>
   </g>
 </svg>
