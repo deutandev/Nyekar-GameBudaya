@@ -155,5 +155,7 @@ active = true
 parameters/playback = SubResource( 7 )
 
 [node name="KerisHandler" parent="." instance=ExtResource( 3 )]
-position = Vector2( 0, 25 )
 scale = Vector2( -1, 1 )
+
+[editable path="KerisHandler"]
+[editable path="KerisHandler/Keris"]

@@ -47,6 +47,7 @@ func _physics_process(delta):
 	
 	if Input.is_action_pressed("attack"):
 		imgKeris.visible = true
+		$KerisHandler/Keris.monitoring = true
 		if cur_anim == "runRight":
 			animationKeris.play("attackRight")
 		else:
