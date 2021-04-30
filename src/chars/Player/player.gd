@@ -28,7 +28,6 @@ func get_input():
 func _physics_process(delta):
 	var direction = get_input()
 	if direction.length() > 0:
-		imgKeris.visible = false
 		if direction.x > 0:
 			animationPlayer.play("runRight")
 			cur_anim = "runRight"
@@ -52,3 +51,6 @@ func _physics_process(delta):
 			animationKeris.play("attackRight")
 		else:
 			animationKeris.play("attackLeft")
+	elif Input.is_action_just_released("attack"):
+		yield(animationKeris, "animation_finished")
+		imgKeris.visible = false
