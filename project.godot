@@ -45,6 +45,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Tumpengan-GameBudaya"
+run/main_scene="res://src/scenes/levels/level01.tscn"
 config/icon="res://icon.png"
 
 [autoload]
