@@ -2,7 +2,7 @@
 
 [ext_resource path="res://src/tools/Keris.tscn" type="PackedScene" id=1]
 
-[sub_resource type="Animation" id=2]
+[sub_resource type="Animation" id=1]
 resource_name = "attackLeft"
 length = 0.4
 step = 0.05
@@ -43,8 +43,7 @@ tracks/2/keys = {
 "values": [ true ]
 }
 
-[sub_resource type="Animation" id=1]
-resource_name = "attackRight"
+[sub_resource type="Animation" id=2]
 length = 0.4
 step = 0.05
 tracks/0/type = "value"
@@ -89,12 +88,13 @@ tracks/2/keys = {
 [node name="Keris" parent="." instance=ExtResource( 1 )]
 position = Vector2( 0, -45 )
 monitoring = false
+collision_mask = 3
 
 [node name="Sprite" parent="Keris" index="0"]
 visible = false
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
-anims/attackLeft = SubResource( 2 )
-anims/attackRight = SubResource( 1 )
+anims/attackLeft = SubResource( 1 )
+anims/attackRight = SubResource( 2 )
 
 [editable path="Keris"]

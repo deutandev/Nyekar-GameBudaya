@@ -10,6 +10,7 @@ height = 94.6005
 [node name="Keris" type="Area2D" groups=[
 "weapons",
 ]]
+collision_mask = 2
 script = ExtResource( 2 )
 
 [node name="Sprite" type="Sprite" parent="."]

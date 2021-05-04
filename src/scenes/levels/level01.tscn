@@ -9,7 +9,6 @@
 [node name="Level01" type="Node2D"]
 
 [node name="Latar" type="Sprite" parent="."]
-scale = Vector2( 0.75, 0.75 )
 texture = ExtResource( 2 )
 
 [node name="YSort" type="YSort" parent="."]
@@ -18,9 +17,9 @@ texture = ExtResource( 2 )
 position = Vector2( 473.868, 124.14 )
 
 [node name="Player" parent="YSort" instance=ExtResource( 1 )]
-position = Vector2( 89.4343, 120.136 )
+position = Vector2( -8, 272 )
 
-[node name="AnimationTree" parent="YSort/Player" index="3"]
+[node name="AnimationTree" parent="YSort/Player" index="4"]
 parameters/playback = SubResource( 1 )
 
 [editable path="YSort/Player"]
