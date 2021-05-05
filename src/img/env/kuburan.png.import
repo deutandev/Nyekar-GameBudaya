@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/rumput1.svg.2021_05_04_07_01_37.0.svg-611d22d70981caddea86e88789dac2e6.stex"
+path="res://.import/kuburan.png-c57224e195352fc4ea36bd26a57a1c16.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/img/env/rumput1.svg.2021_05_04_07_01_37.0.svg"
-dest_files=[ "res://.import/rumput1.svg.2021_05_04_07_01_37.0.svg-611d22d70981caddea86e88789dac2e6.stex" ]
+source_file="res://src/img/env/kuburan.png"
+dest_files=[ "res://.import/kuburan.png-c57224e195352fc4ea36bd26a57a1c16.stex" ]
 
 [params]
 
