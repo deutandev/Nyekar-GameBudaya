@@ -1,11 +1,14 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://src/chars/Player/player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://src/img/env/halaman.png" type="Texture" id=2]
 [ext_resource path="res://src/chars/Enemies/Drone.tscn" type="PackedScene" id=3]
 [ext_resource path="res://src/scenes/env/Melati.tscn" type="PackedScene" id=4]
 [ext_resource path="res://src/scenes/env/Mawar.tscn" type="PackedScene" id=5]
-[ext_resource path="res://src/img/env/joglo.png" type="Texture" id=12]
+[ext_resource path="res://src/img/env/joglo/joglo-lantai.png" type="Texture" id=7]
+[ext_resource path="res://src/img/env/joglo/joglo-belakang.png" type="Texture" id=8]
+[ext_resource path="res://src/img/env/joglo/joglo-soko.png" type="Texture" id=9]
+[ext_resource path="res://src/img/env/joglo/joglo-depan.png" type="Texture" id=10]
 
 [sub_resource type="AnimationNodeStateMachinePlayback" id=1]
 
@@ -13,6 +16,14 @@
 
 [node name="Latar" type="Sprite" parent="."]
 texture = ExtResource( 2 )
+
+[node name="joglo-lantai" type="Sprite" parent="."]
+position = Vector2( 4, -558 )
+texture = ExtResource( 7 )
+
+[node name="joglo-belakang" type="Sprite" parent="."]
+position = Vector2( 0, -668 )
+texture = ExtResource( 8 )
 
 [node name="YSort" type="YSort" parent="."]
 
@@ -31,9 +42,19 @@ position = Vector2( 0, 99 )
 [node name="Melati" parent="YSort" instance=ExtResource( 4 )]
 position = Vector2( 128, 206 )
 
-[node name="joglo" type="Sprite" parent="."]
-position = Vector2( 8, -686 )
-texture = ExtResource( 12 )
+[node name="JogloSoko" type="Position2D" parent="YSort"]
+position = Vector2( 0, -504 )
+
+[node name="joglo-soko" type="Sprite" parent="YSort/JogloSoko"]
+position = Vector2( 0, -217 )
+texture = ExtResource( 9 )
+
+[node name="JogloDepan" type="Position2D" parent="YSort"]
+position = Vector2( 0, -528 )
+
+[node name="joglo-depan" type="Sprite" parent="YSort/JogloDepan"]
+position = Vector2( 0, -99 )
+texture = ExtResource( 10 )
 
 [editable path="YSort/Player"]
 [editable path="YSort/Player/KerisHandler"]

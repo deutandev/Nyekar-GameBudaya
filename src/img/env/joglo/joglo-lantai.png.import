@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/joglo.png-789ad9c3bbcf337546afe7dee0339c82.stex"
+path="res://.import/joglo-lantai.png-b8fbf82085d0323c4cb6348dce998cd7.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/img/env/joglo.png"
-dest_files=[ "res://.import/joglo.png-789ad9c3bbcf337546afe7dee0339c82.stex" ]
+source_file="res://src/img/env/joglo/joglo-lantai.png"
+dest_files=[ "res://.import/joglo-lantai.png-b8fbf82085d0323c4cb6348dce998cd7.stex" ]
 
 [params]
 
