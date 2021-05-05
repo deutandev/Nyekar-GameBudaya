@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://src/img/env/pisang.svg" type="Texture" id=1]
+
+[sub_resource type="CapsuleShape2D" id=1]
+radius = 32.0
+height = 48.0
+
+[node name="PisangTandon" type="Area2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 1 )
+
+[node name="pisang" type="Sprite" parent="."]
+texture = ExtResource( 1 )

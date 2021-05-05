@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="StreamTexture" id=1]
+flags = 4
+load_path = "res://.import/pohon-pisang.svg-a8d7bc37591eec68bbaed7d31ee95f83.stex"
+
+[node name="pohon-pisang" type="Sprite"]
+position = Vector2( -14, -34 )
+texture = SubResource( 1 )

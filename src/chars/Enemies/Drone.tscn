@@ -3,7 +3,7 @@
 [ext_resource path="res://src/img/Enemies/Drone.svg" type="Texture" id=1]
 [ext_resource path="res://src/chars/Enemies/Drone.gd" type="Script" id=2]
 [ext_resource path="res://src/img/shadow.png" type="Texture" id=3]
-[ext_resource path="res://src/tools/saber.tscn" type="PackedScene" id=4]
+[ext_resource path="res://src/scenes/tools/saber.tscn" type="PackedScene" id=4]
 
 [sub_resource type="CapsuleShape2D" id=1]
 radius = 32.0

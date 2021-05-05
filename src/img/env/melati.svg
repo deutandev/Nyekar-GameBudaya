@@ -529,8 +529,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4701203"
-     inkscape:cx="156.83834"
-     inkscape:cy="-14.58569"
+     inkscape:cx="153.71299"
+     inkscape:cy="-14.585692"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -551,7 +551,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -624,7 +624,7 @@
     <g
        id="g1729"
        transform="matrix(0.75144514,0,0,0.75161007,-7.6809243,47.169676)"
-       style="stroke-width:1.33062">
+       style="stroke-width:1.33062;opacity:0">
       <path
          id="path966"
          style="fill:url(#linearGradient968);fill-opacity:1;stroke:url(#linearGradient970);stroke-width:1.05618;stroke-linecap:round;stroke-miterlimit:1.41;stroke-dasharray:none;paint-order:stroke fill markers"
@@ -709,7 +709,7 @@
     <g
        id="g1747"
        transform="matrix(0.75144514,0,0,0.75161007,9.6297407,47.431292)"
-       style="stroke-width:1.33062">
+       style="stroke-width:1.33062;opacity:0">
       <path
          id="path1731"
          style="fill:url(#linearGradient1749);fill-opacity:1;stroke:url(#linearGradient1751);stroke-width:1.05618;stroke-linecap:round;stroke-miterlimit:1.41;stroke-dasharray:none;paint-order:stroke fill markers"

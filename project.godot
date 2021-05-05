@@ -271,6 +271,7 @@ attack={
 2d_physics/layer_4="item"
 2d_physics/layer_5="playerHitbox"
 2d_physics/layer_6="enemyHitbox"
+2d_physics/layer_7="grass"
 
 [rendering]
 

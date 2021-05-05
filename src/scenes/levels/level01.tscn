@@ -1,10 +1,11 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://src/chars/Player/player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://src/img/env/halaman.png" type="Texture" id=2]
 [ext_resource path="res://src/chars/Enemies/Drone.tscn" type="PackedScene" id=3]
-[ext_resource path="res://src/img/env/melati.svg" type="Texture" id=4]
-[ext_resource path="res://src/img/env/mawar.svg" type="Texture" id=5]
+[ext_resource path="res://src/scenes/env/Melati.tscn" type="PackedScene" id=4]
+[ext_resource path="res://src/scenes/env/Mawar.tscn" type="PackedScene" id=5]
+[ext_resource path="res://src/img/env/joglo.png" type="Texture" id=12]
 
 [sub_resource type="AnimationNodeStateMachinePlayback" id=1]
 
@@ -24,13 +25,15 @@ position = Vector2( -8, 272 )
 [node name="AnimationTree" parent="YSort/Player" index="4"]
 parameters/playback = SubResource( 1 )
 
-[node name="mawar" type="Sprite" parent="."]
-position = Vector2( -102, 234 )
-texture = ExtResource( 5 )
+[node name="Mawar" parent="YSort" instance=ExtResource( 5 )]
+position = Vector2( 0, 99 )
 
-[node name="melati" type="Sprite" parent="."]
-position = Vector2( 112, 238 )
-texture = ExtResource( 4 )
+[node name="Melati" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 128, 206 )
+
+[node name="joglo" type="Sprite" parent="."]
+position = Vector2( 8, -686 )
+texture = ExtResource( 12 )
 
 [editable path="YSort/Player"]
 [editable path="YSort/Player/KerisHandler"]
