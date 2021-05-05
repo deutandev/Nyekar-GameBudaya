@@ -741,6 +741,35 @@
        x2="1775.6"
        y2="118.54313"
        gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient25640"
+       id="linearGradient5135"
+       x1="1622.6487"
+       y1="424.79532"
+       x2="1622.6486"
+       y2="377.88809"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient25640"
+       id="linearGradient5139"
+       gradientUnits="userSpaceOnUse"
+       x1="1494"
+       y1="633.75201"
+       x2="1494"
+       y2="377.75204"
+       gradientTransform="matrix(1,0,0,0.81623707,0,116.46009)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient25640"
+       id="linearGradient5145"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.11920646,0,0,0.81623707,1203.164,116.46009)"
+       x1="1494"
+       y1="633.75201"
+       x2="1494"
+       y2="377.75204" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -749,9 +778,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.7309658"
-     inkscape:cx="831.99999"
-     inkscape:cy="509.51396"
+     inkscape:zoom="1.3331909"
+     inkscape:cx="704"
+     inkscape:cy="896.74368"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -768,7 +797,7 @@
      inkscape:snap-intersection-paths="true"
      inkscape:snap-nodes="true"
      inkscape:snap-others="true"
-     inkscape:snap-grids="false">
+     inkscape:snap-grids="true">
     <inkscape:grid
        type="xygrid"
        id="grid20589"
@@ -6847,5 +6876,26 @@
        inkscape:original-d="m 1696.1762,65.226883 c -1.6389,1.621216 -3.3887,2.861839 -5.6712,3.342162 -0.3969,0.08353 0.2161,-0.812532 0.1435,-1.213199 -0.211,-1.164948 -0.7519,-2.386645 -2.1289,-2.189125 -1.91,0.273985 -2.9549,2.402962 -4.5529,3.016117 -2.0011,0.767822 -1.7687,-2.122261 -1.8744,-2.279103 -0.8796,-1.305952 -2.9466,1.808098 -4.479,1.464485"
        inkscape:path-effect="#path-effect25658"
        sodipodi:nodetypes="csssscc" />
+    <rect
+       style="opacity:1;fill:url(#linearGradient5135);fill-opacity:1;stroke:#ffe4e1;stroke-width:0;stroke-linecap:round;stroke-miterlimit:1.41;paint-order:stroke fill markers"
+       id="rect5127"
+       width="384"
+       height="256"
+       x="1366"
+       y="377.75204" />
+    <rect
+       style="opacity:1;fill:url(#linearGradient5139);fill-opacity:1;stroke:#ffe4e1;stroke-width:0;stroke-linecap:round;stroke-miterlimit:1.41;paint-order:stroke fill markers"
+       id="rect5137"
+       width="384"
+       height="208.9567"
+       x="1366"
+       y="424.79532" />
+    <rect
+       style="opacity:1;fill:url(#linearGradient5145);fill-opacity:1;stroke:#ffe4e1;stroke-width:0;stroke-linecap:round;stroke-miterlimit:1.41;paint-order:stroke fill markers"
+       id="rect5143"
+       width="45.77528"
+       height="208.9567"
+       x="1366"
+       y="424.79532" />
   </g>
 </svg>

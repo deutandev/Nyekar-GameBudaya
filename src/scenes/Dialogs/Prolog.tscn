@@ -1,0 +1,378 @@
+[gd_scene load_steps=32 format=2]
+
+[ext_resource path="res://src/scenes/Dialogs/Dialog.gd" type="Script" id=1]
+[ext_resource path="res://src/img/env/joglo/joglo-depan.png" type="Texture" id=2]
+[ext_resource path="res://src/img/env/joglo/joglo-lantai.png" type="Texture" id=3]
+[ext_resource path="res://src/img/env/halaman.png" type="Texture" id=4]
+[ext_resource path="res://src/scenes/env/JogloSoko.tscn" type="PackedScene" id=5]
+[ext_resource path="res://src/img/Bapak/bapak.svg" type="Texture" id=6]
+[ext_resource path="res://src/img/env/joglo/joglo-belakang.png" type="Texture" id=7]
+[ext_resource path="res://src/scenes/Dialogs/Area2D.gd" type="Script" id=8]
+[ext_resource path="res://src/scenes/env/PohonPisang.tscn" type="PackedScene" id=10]
+[ext_resource path="res://src/scenes/env/Rumput2.tscn" type="PackedScene" id=11]
+[ext_resource path="res://src/scenes/env/Pohon.tscn" type="PackedScene" id=12]
+[ext_resource path="res://src/scenes/env/Rumput0.tscn" type="PackedScene" id=13]
+[ext_resource path="res://src/chars/Player/player.gd" type="Script" id=14]
+[ext_resource path="res://src/img/shadow.png" type="Texture" id=15]
+[ext_resource path="res://src/chars/Player/Hitbox.gd" type="Script" id=16]
+[ext_resource path="res://src/img/Player/player-sprite.svg" type="Texture" id=17]
+[ext_resource path="res://src/scenes/env/bg.tscn" type="PackedScene" id=19]
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 208, 10 )
+
+[sub_resource type="CapsuleShape2D" id=1]
+radius = 17.0
+height = 9.25311
+
+[sub_resource type="Animation" id=9]
+resource_name = "idleLeft"
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Player:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ 5, 6 ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Player:flip_h")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+
+[sub_resource type="Animation" id=3]
+resource_name = "idleRight"
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Player:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ 5, 6 ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Player:flip_h")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=4]
+length = 0.6
+loop = true
+step = 0.15
+tracks/0/type = "value"
+tracks/0/path = NodePath("Player:flip_h")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Player:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.15, 0.3, 0.45, 0.6 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 0, 1, 2, 3, 4 ]
+}
+
+[sub_resource type="Animation" id=5]
+length = 0.6
+loop = true
+step = 0.15
+tracks/0/type = "value"
+tracks/0/path = NodePath("Player:flip_h")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Player:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.15, 0.3, 0.45, 0.6 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 1, 2, 3, 4, 5 ]
+}
+
+[sub_resource type="AnimationNodeStateMachine" id=6]
+
+[sub_resource type="AnimationNodeStateMachinePlayback" id=10]
+
+[sub_resource type="CapsuleShape2D" id=8]
+radius = 24.0
+height = 48.0
+
+[sub_resource type="RectangleShape2D" id=13]
+extents = Vector2( 16, 72 )
+
+[sub_resource type="RectangleShape2D" id=14]
+extents = Vector2( 96, 10 )
+
+[sub_resource type="RectangleShape2D" id=15]
+extents = Vector2( 56, 56 )
+
+[sub_resource type="RectangleShape2D" id=11]
+extents = Vector2( 581, 10 )
+
+[sub_resource type="RectangleShape2D" id=12]
+extents = Vector2( 28, 162 )
+
+[node name="Prolog" type="Node2D"]
+position = Vector2( 491, 966 )
+script = ExtResource( 1 )
+
+[node name="StaticBody2D" parent="." instance=ExtResource( 19 )]
+position = Vector2( -31, -633 )
+
+[node name="Level01" type="Node2D" parent="."]
+
+[node name="Latar" type="Sprite" parent="Level01"]
+texture = ExtResource( 4 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="joglo-lantai" type="Sprite" parent="Level01"]
+position = Vector2( 4, -558 )
+texture = ExtResource( 3 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="joglo-belakang" type="Sprite" parent="Level01"]
+position = Vector2( 0, -668 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Level01/joglo-belakang"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Level01/joglo-belakang/StaticBody2D"]
+position = Vector2( -8, 36 )
+shape = SubResource( 2 )
+
+[node name="YSort" type="YSort" parent="Level01"]
+
+[node name="Player" type="KinematicBody2D" parent="Level01/YSort"]
+position = Vector2( -75, -483 )
+collision_mask = 2
+script = ExtResource( 14 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="shadow" type="Sprite" parent="Level01/YSort/Player"]
+position = Vector2( 0, 3 )
+scale = Vector2( 0.765303, 1 )
+texture = ExtResource( 15 )
+
+[node name="Player" type="Sprite" parent="Level01/YSort/Player"]
+position = Vector2( 0, -55.4992 )
+scale = Vector2( 0.75, 0.75 )
+texture = ExtResource( 17 )
+hframes = 5
+vframes = 2
+frame = 5
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Level01/YSort/Player"]
+position = Vector2( 0, -14.1801 )
+rotation = 1.5708
+shape = SubResource( 1 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Level01/YSort/Player"]
+autoplay = "idleRight"
+anims/idleLeft = SubResource( 9 )
+anims/idleRight = SubResource( 3 )
+anims/runLeft = SubResource( 4 )
+anims/runRight = SubResource( 5 )
+
+[node name="AnimationTree" type="AnimationTree" parent="Level01/YSort/Player"]
+tree_root = SubResource( 6 )
+anim_player = NodePath("../AnimationPlayer")
+active = true
+parameters/playback = SubResource( 10 )
+
+[node name="Hurtbox" type="KinematicBody2D" parent="Level01/YSort/Player"]
+collision_layer = 16
+collision_mask = 4
+script = ExtResource( 16 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Level01/YSort/Player/Hurtbox"]
+position = Vector2( 0, -56 )
+shape = SubResource( 8 )
+
+[node name="JogloSoko" parent="Level01/YSort" instance=ExtResource( 5 )]
+position = Vector2( 0, -504 )
+
+[node name="JogloDepan" type="Position2D" parent="Level01/YSort"]
+position = Vector2( 0, -520 )
+
+[node name="joglo-depan" type="Sprite" parent="Level01/YSort/JogloDepan"]
+position = Vector2( 0, -99 )
+texture = ExtResource( 2 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Level01/YSort/JogloDepan"]
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="Level01/YSort/JogloDepan/StaticBody2D"]
+position = Vector2( 232, -96 )
+shape = SubResource( 13 )
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="Level01/YSort/JogloDepan/StaticBody2D"]
+position = Vector2( -224, -96 )
+shape = SubResource( 13 )
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="Level01/YSort/JogloDepan/StaticBody2D"]
+position = Vector2( 0, -232 )
+shape = SubResource( 14 )
+
+[node name="CollisionShape2D6" type="CollisionShape2D" parent="Level01/YSort/JogloDepan/StaticBody2D"]
+position = Vector2( 160, -24 )
+shape = SubResource( 14 )
+
+[node name="CollisionShape2D7" type="CollisionShape2D" parent="Level01/YSort/JogloDepan/StaticBody2D"]
+position = Vector2( -160, -24 )
+shape = SubResource( 14 )
+
+[node name="Area2D" type="Area2D" parent="Level01/YSort/JogloDepan"]
+monitorable = false
+collision_layer = 256
+script = ExtResource( 8 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Level01/YSort/JogloDepan/Area2D"]
+position = Vector2( 0, -104 )
+shape = SubResource( 15 )
+
+[node name="YSort" type="YSort" parent="Level01/YSort"]
+
+[node name="Node2D" parent="Level01/YSort/YSort" instance=ExtResource( 12 )]
+position = Vector2( -592, -528 )
+
+[node name="Node2D32" parent="Level01/YSort/YSort" instance=ExtResource( 12 )]
+position = Vector2( 448, -576 )
+
+[node name="Node2D33" parent="Level01/YSort/YSort" instance=ExtResource( 12 )]
+position = Vector2( 320, -624 )
+
+[node name="Node2D34" parent="Level01/YSort/YSort" instance=ExtResource( 12 )]
+position = Vector2( 216, -640 )
+
+[node name="Node2D35" parent="Level01/YSort/YSort" instance=ExtResource( 12 )]
+position = Vector2( -432, -608 )
+
+[node name="Node2D36" parent="Level01/YSort/YSort" instance=ExtResource( 12 )]
+position = Vector2( -232, -680 )
+
+[node name="PohonPisang" parent="Level01/YSort/YSort" instance=ExtResource( 10 )]
+position = Vector2( -432, -416 )
+
+[node name="PohonPisang2" parent="Level01/YSort/YSort" instance=ExtResource( 10 )]
+position = Vector2( 432, -416 )
+
+[node name="PohonPisang3" parent="Level01/YSort/YSort" instance=ExtResource( 10 )]
+position = Vector2( 424, -96 )
+
+[node name="PohonPisang6" parent="Level01/YSort/YSort" instance=ExtResource( 10 )]
+position = Vector2( 328, -152 )
+
+[node name="PohonPisang7" parent="Level01/YSort/YSort" instance=ExtResource( 10 )]
+position = Vector2( 496, -272 )
+
+[node name="PohonPisang8" parent="Level01/YSort/YSort" instance=ExtResource( 10 )]
+position = Vector2( -344, -280 )
+
+[node name="Bapak" type="Node2D" parent="Level01/YSort"]
+position = Vector2( 21, -539 )
+
+[node name="shadow" type="Sprite" parent="Level01/YSort/Bapak"]
+scale = Vector2( 0.936364, 1 )
+texture = ExtResource( 15 )
+
+[node name="bapak" type="Sprite" parent="Level01/YSort/Bapak"]
+position = Vector2( 0, -60 )
+scale = Vector2( 0.75, 0.75 )
+texture = ExtResource( 6 )
+
+[node name="YSort2" type="YSort" parent="Level01/YSort"]
+
+[node name="Rumput0" parent="Level01/YSort/YSort2" instance=ExtResource( 13 )]
+position = Vector2( 0, -48 )
+
+[node name="Rumput24" parent="Level01/YSort/YSort2" instance=ExtResource( 11 )]
+position = Vector2( 200, -376 )
+
+[node name="Rumput25" parent="Level01/YSort/YSort2" instance=ExtResource( 11 )]
+position = Vector2( 200, -288 )
+
+[node name="Rumput26" parent="Level01/YSort/YSort2" instance=ExtResource( 11 )]
+position = Vector2( 200, -168 )
+
+[node name="Rumput29" parent="Level01/YSort/YSort2" instance=ExtResource( 11 )]
+position = Vector2( -256, -200 )
+
+[node name="Rumput30" parent="Level01/YSort/YSort2" instance=ExtResource( 11 )]
+position = Vector2( -240, -304 )
+
+[node name="Rumput31" parent="Level01/YSort/YSort2" instance=ExtResource( 11 )]
+position = Vector2( -248, -408 )
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2"]
+position = Vector2( -29, -351 )
+shape = SubResource( 11 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D2"]
+position = Vector2( -526, -493 )
+shape = SubResource( 12 )
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D2"]
+position = Vector2( 572, -512 )
+shape = SubResource( 12 )
+
+[connection signal="body_entered" from="Level01/YSort/JogloDepan/Area2D" to="Level01/YSort/JogloDepan/Area2D" method="_on_Area2D_body_entered"]

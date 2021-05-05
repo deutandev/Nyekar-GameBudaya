@@ -7,7 +7,8 @@
 radius = 16.0
 
 [node name="PohonPisang" type="StaticBody2D"]
-collision_layer = 0
+collision_layer = 2
+collision_mask = 0
 
 [node name="shadow" type="Sprite" parent="."]
 position = Vector2( 8, 0 )

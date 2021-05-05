@@ -12,6 +12,8 @@ onready var animationPlayer = $AnimationPlayer
 onready var animationTree = $AnimationTree
 onready var animationKeris = $KerisHandler/AnimationPlayer
 onready var imgKeris = $KerisHandler/Keris/Sprite
+onready var keranjang = $Keranjang
+
 
 func get_input():
 	var input = Vector2()
@@ -55,3 +57,8 @@ func _physics_process(delta):
 	elif Input.is_action_just_released("attack"):
 		yield(animationKeris, "animation_finished")
 		imgKeris.visible = false
+		
+	##if Input.is_action_just_pressed("interact"):
+		##keranjang.visible = true
+	##elif Input.is_action_just_released("interact"):
+	##	keranjang.visible = false
