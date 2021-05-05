@@ -1,0 +1,134 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://src/scenes/env/Rumput2.tscn" type="PackedScene" id=1]
+[ext_resource path="res://src/scenes/env/Rumput0.gd" type="Script" id=2]
+[ext_resource path="res://src/scenes/env/Rumput1.tscn" type="PackedScene" id=3]
+[ext_resource path="res://src/scenes/env/Rumput0.tscn" type="PackedScene" id=4]
+
+[node name="YSort" type="YSort"]
+
+[node name="Rumput0" type="Area2D" parent="." instance=ExtResource( 4 )]
+collision_layer = 64
+script = ExtResource( 2 )
+
+[node name="Rumput18" type="Area2D" parent="." instance=ExtResource( 4 )]
+position = Vector2( -480, -192 )
+collision_layer = 64
+script = ExtResource( 2 )
+
+[node name="Rumput15" type="Area2D" parent="." instance=ExtResource( 4 )]
+position = Vector2( 152, -264 )
+collision_layer = 64
+script = ExtResource( 2 )
+
+[node name="Rumput3" type="Area2D" parent="." instance=ExtResource( 4 )]
+position = Vector2( 520, -96 )
+collision_layer = 64
+script = ExtResource( 2 )
+
+[node name="Rumput17" type="Area2D" parent="." instance=ExtResource( 4 )]
+position = Vector2( 648, -336 )
+collision_layer = 64
+script = ExtResource( 2 )
+
+[node name="Rumput4" type="Area2D" parent="." instance=ExtResource( 4 )]
+position = Vector2( -160, -256 )
+collision_layer = 64
+script = ExtResource( 2 )
+
+[node name="Rumput19" type="Area2D" parent="." instance=ExtResource( 4 )]
+position = Vector2( -184, 256 )
+collision_layer = 64
+script = ExtResource( 2 )
+
+[node name="Rumput20" type="Area2D" parent="." instance=ExtResource( 4 )]
+position = Vector2( -184, 256 )
+collision_layer = 64
+script = ExtResource( 2 )
+
+[node name="Rumput16" type="Area2D" parent="." instance=ExtResource( 4 )]
+position = Vector2( 480, 88 )
+collision_layer = 64
+script = ExtResource( 2 )
+
+[node name="Rumput1" type="Area2D" parent="." instance=ExtResource( 3 )]
+position = Vector2( 176, 136 )
+collision_layer = 64
+script = ExtResource( 2 )
+
+[node name="Rumput14" type="Area2D" parent="." instance=ExtResource( 3 )]
+position = Vector2( -464, 96 )
+collision_layer = 64
+script = ExtResource( 2 )
+
+[node name="Rumput2" type="Area2D" parent="." instance=ExtResource( 1 )]
+position = Vector2( 784, 0 )
+collision_layer = 64
+script = ExtResource( 2 )
+
+[node name="Rumput5" type="Area2D" parent="." instance=ExtResource( 1 )]
+position = Vector2( 560, 272 )
+collision_layer = 64
+script = ExtResource( 2 )
+
+[node name="Rumput6" type="Area2D" parent="." instance=ExtResource( 1 )]
+position = Vector2( -792, -32 )
+collision_layer = 64
+script = ExtResource( 2 )
+
+[node name="Rumput7" type="Area2D" parent="." instance=ExtResource( 1 )]
+position = Vector2( 448, -216 )
+collision_layer = 64
+script = ExtResource( 2 )
+
+[node name="Rumput8" type="Area2D" parent="." instance=ExtResource( 1 )]
+position = Vector2( 0, -400 )
+collision_layer = 64
+script = ExtResource( 2 )
+
+[node name="Rumput9" type="Area2D" parent="." instance=ExtResource( 1 )]
+position = Vector2( -648, -360 )
+collision_layer = 64
+script = ExtResource( 2 )
+
+[node name="Rumput10" type="Area2D" parent="." instance=ExtResource( 1 )]
+position = Vector2( -784, 280 )
+collision_layer = 64
+script = ExtResource( 2 )
+
+[node name="Rumput11" type="Area2D" parent="." instance=ExtResource( 1 )]
+position = Vector2( -424, 336 )
+collision_layer = 64
+script = ExtResource( 2 )
+
+[node name="Rumput12" type="Area2D" parent="." instance=ExtResource( 1 )]
+position = Vector2( -384, -184 )
+collision_layer = 64
+script = ExtResource( 2 )
+
+[node name="Rumput13" type="Area2D" parent="." instance=ExtResource( 1 )]
+position = Vector2( 72, 312 )
+collision_layer = 64
+script = ExtResource( 2 )
+
+[connection signal="body_entered" from="Rumput0" to="Rumput0" method="_on_Rumput0_body_entered"]
+[connection signal="body_entered" from="Rumput18" to="Rumput18" method="_on_Rumput0_body_entered"]
+[connection signal="body_entered" from="Rumput15" to="Rumput15" method="_on_Rumput0_body_entered"]
+[connection signal="body_entered" from="Rumput3" to="Rumput3" method="_on_Rumput0_body_entered"]
+[connection signal="body_entered" from="Rumput17" to="Rumput17" method="_on_Rumput0_body_entered"]
+[connection signal="body_entered" from="Rumput4" to="Rumput4" method="_on_Rumput0_body_entered"]
+[connection signal="body_entered" from="Rumput19" to="Rumput19" method="_on_Rumput0_body_entered"]
+[connection signal="body_entered" from="Rumput20" to="Rumput20" method="_on_Rumput0_body_entered"]
+[connection signal="body_entered" from="Rumput16" to="Rumput16" method="_on_Rumput0_body_entered"]
+[connection signal="body_entered" from="Rumput1" to="Rumput1" method="_on_Rumput0_body_entered"]
+[connection signal="body_entered" from="Rumput14" to="Rumput14" method="_on_Rumput0_body_entered"]
+[connection signal="body_entered" from="Rumput2" to="Rumput2" method="_on_Rumput0_body_entered"]
+[connection signal="body_entered" from="Rumput5" to="Rumput5" method="_on_Rumput0_body_entered"]
+[connection signal="body_entered" from="Rumput6" to="Rumput6" method="_on_Rumput0_body_entered"]
+[connection signal="body_entered" from="Rumput7" to="Rumput7" method="_on_Rumput0_body_entered"]
+[connection signal="body_entered" from="Rumput8" to="Rumput8" method="_on_Rumput0_body_entered"]
+[connection signal="body_entered" from="Rumput9" to="Rumput9" method="_on_Rumput0_body_entered"]
+[connection signal="body_entered" from="Rumput10" to="Rumput10" method="_on_Rumput0_body_entered"]
+[connection signal="body_entered" from="Rumput11" to="Rumput11" method="_on_Rumput0_body_entered"]
+[connection signal="body_entered" from="Rumput12" to="Rumput12" method="_on_Rumput0_body_entered"]
+[connection signal="body_entered" from="Rumput13" to="Rumput13" method="_on_Rumput0_body_entered"]

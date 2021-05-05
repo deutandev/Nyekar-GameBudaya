@@ -19,4 +19,6 @@ func _physics_process(delta):
 
 
 func _on_Keranjang_body_entered(body):
-	body.queue_free()
+	if body.is_in_group("bunga"):
+		body.queue_free()
+		Global.bunga += 1
