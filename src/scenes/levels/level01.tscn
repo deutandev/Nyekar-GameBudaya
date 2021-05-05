@@ -15,7 +15,7 @@
 [ext_resource path="res://src/chars/Bapak/Bapak.tscn" type="PackedScene" id=13]
 [ext_resource path="res://src/scenes/env/Rumput2.tscn" type="PackedScene" id=14]
 [ext_resource path="res://src/scenes/env/Rumput0.tscn" type="PackedScene" id=15]
-[ext_resource path="res://src/img/tools/kePesarean.png" type="Texture" id=17]
+[ext_resource path="res://src/img/tools/keTaman.png" type="Texture" id=16]
 [ext_resource path="res://src/scenes/levels/Portal.gd" type="Script" id=18]
 
 [sub_resource type="RectangleShape2D" id=2]
@@ -365,10 +365,11 @@ position = Vector2( 424, -16 )
 [node name="Rumput35" parent="YSort/YSort2" instance=ExtResource( 14 )]
 position = Vector2( -496, -40 )
 
-[node name="kePesarean" type="Sprite" parent="YSort"]
-position = Vector2( 943.543, 49.25 )
+[node name="keTaman" type="Sprite" parent="YSort"]
+position = Vector2( 1017, 101 )
 scale = Vector2( 0.746637, 0.746637 )
-texture = ExtResource( 17 )
+texture = ExtResource( 16 )
+offset = Vector2( 0, -100 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 __meta__ = {

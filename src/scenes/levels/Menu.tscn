@@ -361,7 +361,6 @@ margin_top = -125.0
 margin_right = 233.0
 margin_bottom = -19.0
 custom_styles/hover = SubResource( 27 )
-text = "Mulai"
 icon = ExtResource( 17 )
 flat = true
 script = ExtResource( 18 )
