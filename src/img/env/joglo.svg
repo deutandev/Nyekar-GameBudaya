@@ -17937,9 +17937,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.0007265"
-     inkscape:cx="426.50087"
-     inkscape:cy="223.40795"
+     inkscape:zoom="0.94117947"
+     inkscape:cx="431.63873"
+     inkscape:cy="266.09801"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -18045,7 +18045,10 @@
        width="14.137245"
        height="124.05103"
        x="938.16852"
-       y="149.43398" />
+       y="149.43398"
+       inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpengan-GameBudaya/src/img/env/joglo/joglo-belakang.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        style="fill:#765f4c;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:square;stroke-miterlimit:1.41;stroke-dasharray:none;paint-order:markers fill stroke;filter:url(#filter5486)"
        id="rect3250"
@@ -18071,7 +18074,10 @@
        width="14.137245"
        height="124.05103"
        x="309.53143"
-       y="149.43401" />
+       y="149.43401"
+       inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpengan-GameBudaya/src/img/env/joglo/joglo-belakang.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        style="fill:url(#linearGradient3254);fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:square;stroke-miterlimit:1.41;stroke-dasharray:none;paint-order:markers fill stroke;filter:url(#filter5508)"
        id="rect3252"
@@ -18370,19 +18376,11 @@
        inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpengan-GameBudaya/src/img/env/joglo/joglo-depan.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
-    <rect
-       style="fill:url(#linearGradient34074);fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:square;stroke-miterlimit:1.41;stroke-dasharray:none;paint-order:markers fill stroke;filter:url(#filter5222)"
-       id="rect34072"
-       width="14.465306"
-       height="253.54341"
-       x="-702.16553"
-       y="102.94862"
-       transform="matrix(-1,0,0,0.6889428,-315.58297,94.288001)"
-       inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpengan-GameBudaya/src/img/env/joglo/joglo-depan.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
     <g
-       id="g34079">
+       id="g34079"
+       inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpengan-GameBudaya/src/img/env/joglo/joglo-soko.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <path
          style="fill:url(#pattern4306);fill-opacity:1;stroke:#997c6a;stroke-width:2.34069;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4936)"
          d="M 388.04828,135.32683 204.6073,165.42669 H 1057.23 L 873.78907,135.32683 Z"
@@ -18396,6 +18394,17 @@
          d="M 527.30065,66.729028 H 734.5367 L 873.78907,135.32683 H 388.04828 Z"
          id="path39048" />
     </g>
+    <rect
+       style="fill:url(#linearGradient34074);fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:square;stroke-miterlimit:1.41;stroke-dasharray:none;paint-order:markers fill stroke;filter:url(#filter5222)"
+       id="rect34072"
+       width="14.465306"
+       height="253.54341"
+       x="-702.16553"
+       y="102.94862"
+       transform="matrix(-1,0,0,0.6889428,-315.58297,94.288001)"
+       inkscape:export-filename="/home/dikawfa/Projects/Godot/Tumpengan-GameBudaya/src/img/env/joglo/joglo-depan.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        style="fill:url(#linearGradient34094);fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:square;stroke-miterlimit:1.41;stroke-dasharray:none;paint-order:markers fill stroke;filter:url(#filter5222)"
        id="rect34092"
