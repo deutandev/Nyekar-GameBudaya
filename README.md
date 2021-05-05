@@ -1,4 +1,5 @@
 # Nyekar - Game Budaya Jawa
+Github repo: https://github.com/deutandev/Nyekar-GameBudaya.git
 
 ## Cara Main
 Cukup jalankan file Nyekar.exe
