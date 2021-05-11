@@ -17,14 +17,14 @@
 [ext_resource path="res://src/img/UI/mulai0.png" type="Texture" id=17]
 [ext_resource path="res://src/scenes/levels/Mulai.gd" type="Script" id=18]
 
-[sub_resource type="RectangleShape2D" id=16]
+[sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 208, 10 )
 
-[sub_resource type="CapsuleShape2D" id=17]
+[sub_resource type="CapsuleShape2D" id=2]
 radius = 17.0
 height = 9.25311
 
-[sub_resource type="Animation" id=18]
+[sub_resource type="Animation" id=3]
 resource_name = "idleLeft"
 loop = true
 tracks/0/type = "value"
@@ -52,7 +52,7 @@ tracks/1/keys = {
 "values": [ true ]
 }
 
-[sub_resource type="Animation" id=19]
+[sub_resource type="Animation" id=4]
 resource_name = "idleRight"
 loop = true
 tracks/0/type = "value"
@@ -80,7 +80,7 @@ tracks/1/keys = {
 "values": [ false ]
 }
 
-[sub_resource type="Animation" id=20]
+[sub_resource type="Animation" id=5]
 length = 0.6
 loop = true
 step = 0.15
@@ -109,7 +109,7 @@ tracks/1/keys = {
 "values": [ 0, 1, 2, 3, 4 ]
 }
 
-[sub_resource type="Animation" id=21]
+[sub_resource type="Animation" id=6]
 length = 0.6
 loop = true
 step = 0.15
@@ -138,26 +138,26 @@ tracks/1/keys = {
 "values": [ 1, 2, 3, 4, 5 ]
 }
 
-[sub_resource type="AnimationNodeStateMachine" id=22]
+[sub_resource type="AnimationNodeStateMachine" id=7]
 
-[sub_resource type="AnimationNodeStateMachinePlayback" id=23]
+[sub_resource type="AnimationNodeStateMachinePlayback" id=8]
 
-[sub_resource type="RectangleShape2D" id=13]
+[sub_resource type="RectangleShape2D" id=9]
 extents = Vector2( 16, 72 )
 
-[sub_resource type="RectangleShape2D" id=14]
+[sub_resource type="RectangleShape2D" id=10]
 extents = Vector2( 96, 10 )
 
-[sub_resource type="RectangleShape2D" id=15]
+[sub_resource type="RectangleShape2D" id=11]
 extents = Vector2( 56, 56 )
 
-[sub_resource type="RectangleShape2D" id=25]
+[sub_resource type="RectangleShape2D" id=12]
 extents = Vector2( 581, 10 )
 
-[sub_resource type="RectangleShape2D" id=26]
+[sub_resource type="RectangleShape2D" id=13]
 extents = Vector2( 28, 162 )
 
-[sub_resource type="StyleBoxEmpty" id=27]
+[sub_resource type="StyleBoxEmpty" id=14]
 
 [node name="CanvasLayer" type="CanvasLayer"]
 
@@ -202,7 +202,7 @@ texture = ExtResource( 16 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Prolog/Level01/joglo-belakang/StaticBody2D"]
 position = Vector2( -8, 36 )
-shape = SubResource( 16 )
+shape = SubResource( 1 )
 
 [node name="YSort" type="YSort" parent="Prolog/Level01"]
 
@@ -230,20 +230,20 @@ frame = 5
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Prolog/Level01/YSort/Player"]
 position = Vector2( 0, -14.1801 )
 rotation = 1.5708
-shape = SubResource( 17 )
+shape = SubResource( 2 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="Prolog/Level01/YSort/Player"]
 autoplay = "idleRight"
-anims/idleLeft = SubResource( 18 )
-anims/idleRight = SubResource( 19 )
-anims/runLeft = SubResource( 20 )
-anims/runRight = SubResource( 21 )
+anims/idleLeft = SubResource( 3 )
+anims/idleRight = SubResource( 4 )
+anims/runLeft = SubResource( 5 )
+anims/runRight = SubResource( 6 )
 
 [node name="AnimationTree" type="AnimationTree" parent="Prolog/Level01/YSort/Player"]
-tree_root = SubResource( 22 )
+tree_root = SubResource( 7 )
 anim_player = NodePath("../AnimationPlayer")
 active = true
-parameters/playback = SubResource( 23 )
+parameters/playback = SubResource( 8 )
 
 [node name="JogloSoko" parent="Prolog/Level01/YSort" instance=ExtResource( 7 )]
 position = Vector2( 0, -504 )
@@ -259,23 +259,23 @@ texture = ExtResource( 14 )
 
 [node name="CollisionShape2D4" type="CollisionShape2D" parent="Prolog/Level01/YSort/JogloDepan/StaticBody2D"]
 position = Vector2( 232, -96 )
-shape = SubResource( 13 )
+shape = SubResource( 9 )
 
 [node name="CollisionShape2D5" type="CollisionShape2D" parent="Prolog/Level01/YSort/JogloDepan/StaticBody2D"]
 position = Vector2( -224, -96 )
-shape = SubResource( 13 )
+shape = SubResource( 9 )
 
 [node name="CollisionShape2D3" type="CollisionShape2D" parent="Prolog/Level01/YSort/JogloDepan/StaticBody2D"]
 position = Vector2( 0, -232 )
-shape = SubResource( 14 )
+shape = SubResource( 10 )
 
 [node name="CollisionShape2D6" type="CollisionShape2D" parent="Prolog/Level01/YSort/JogloDepan/StaticBody2D"]
 position = Vector2( 160, -24 )
-shape = SubResource( 14 )
+shape = SubResource( 10 )
 
 [node name="CollisionShape2D7" type="CollisionShape2D" parent="Prolog/Level01/YSort/JogloDepan/StaticBody2D"]
 position = Vector2( -160, -24 )
-shape = SubResource( 14 )
+shape = SubResource( 10 )
 
 [node name="Area2D" type="Area2D" parent="Prolog/Level01/YSort/JogloDepan"]
 monitorable = false
@@ -284,7 +284,7 @@ script = ExtResource( 12 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Prolog/Level01/YSort/JogloDepan/Area2D"]
 position = Vector2( 0, -104 )
-shape = SubResource( 15 )
+shape = SubResource( 11 )
 
 [node name="Bapak" type="Node2D" parent="Prolog/Level01/YSort"]
 position = Vector2( 21, -539 )
@@ -325,15 +325,15 @@ position = Vector2( -248, -408 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Prolog/StaticBody2D2"]
 position = Vector2( -29, -351 )
-shape = SubResource( 25 )
+shape = SubResource( 12 )
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="Prolog/StaticBody2D2"]
 position = Vector2( -526, -493 )
-shape = SubResource( 26 )
+shape = SubResource( 13 )
 
 [node name="CollisionShape2D3" type="CollisionShape2D" parent="Prolog/StaticBody2D2"]
 position = Vector2( 572, -512 )
-shape = SubResource( 26 )
+shape = SubResource( 13 )
 
 [node name="Control" type="Control" parent="."]
 anchor_right = 1.0
@@ -360,7 +360,7 @@ margin_left = -191.0
 margin_top = -125.0
 margin_right = 233.0
 margin_bottom = -19.0
-custom_styles/hover = SubResource( 27 )
+custom_styles/hover = SubResource( 14 )
 icon = ExtResource( 17 )
 flat = true
 script = ExtResource( 18 )
