@@ -1,6 +1,5 @@
 [gd_scene load_steps=32 format=2]
 
-[ext_resource path="res://src/scenes/Dialogs/Dialog.gd" type="Script" id=1]
 [ext_resource path="res://src/img/env/joglo/joglo-depan.png" type="Texture" id=2]
 [ext_resource path="res://src/img/env/joglo/joglo-lantai.png" type="Texture" id=3]
 [ext_resource path="res://src/img/env/halaman.png" type="Texture" id=4]
@@ -8,6 +7,7 @@
 [ext_resource path="res://src/img/Bapak/bapak.svg" type="Texture" id=6]
 [ext_resource path="res://src/img/env/joglo/joglo-belakang.png" type="Texture" id=7]
 [ext_resource path="res://src/scenes/Dialogs/Area2D.gd" type="Script" id=8]
+[ext_resource path="res://src/scenes/Dialogs/DialogProlog.gd" type="Script" id=9]
 [ext_resource path="res://src/scenes/env/PohonPisang.tscn" type="PackedScene" id=10]
 [ext_resource path="res://src/scenes/env/Rumput2.tscn" type="PackedScene" id=11]
 [ext_resource path="res://src/scenes/env/Pohon.tscn" type="PackedScene" id=12]
@@ -163,7 +163,6 @@ extents = Vector2( 28, 162 )
 
 [node name="Prolog" type="Node2D"]
 position = Vector2( 491, 966 )
-script = ExtResource( 1 )
 
 [node name="StaticBody2D" parent="." instance=ExtResource( 19 )]
 position = Vector2( -31, -633 )
@@ -172,23 +171,14 @@ position = Vector2( -31, -633 )
 
 [node name="Latar" type="Sprite" parent="Level01"]
 texture = ExtResource( 4 )
-__meta__ = {
-"_edit_lock_": true
-}
 
 [node name="joglo-lantai" type="Sprite" parent="Level01"]
 position = Vector2( 4, -558 )
 texture = ExtResource( 3 )
-__meta__ = {
-"_edit_lock_": true
-}
 
 [node name="joglo-belakang" type="Sprite" parent="Level01"]
 position = Vector2( 0, -668 )
 texture = ExtResource( 7 )
-__meta__ = {
-"_edit_lock_": true
-}
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Level01/joglo-belakang"]
 
@@ -245,6 +235,9 @@ script = ExtResource( 16 )
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Level01/YSort/Player/Hurtbox"]
 position = Vector2( 0, -56 )
 shape = SubResource( 9 )
+
+[node name="CanvasLayer" type="CanvasLayer" parent="Level01/YSort/Player"]
+script = ExtResource( 9 )
 
 [node name="JogloSoko" parent="Level01/YSort" instance=ExtResource( 5 )]
 position = Vector2( 0, -504 )

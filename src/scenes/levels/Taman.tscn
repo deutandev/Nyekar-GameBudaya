@@ -19,14 +19,14 @@
 [ext_resource path="res://src/scenes/UI/HUDPlayer.gd" type="Script" id=17]
 [ext_resource path="res://src/scenes/levels/Keluar.gd" type="Script" id=18]
 
-[sub_resource type="RectangleShape2D" id=12]
+[sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 904, 32 )
 
-[sub_resource type="CapsuleShape2D" id=1]
+[sub_resource type="CapsuleShape2D" id=2]
 radius = 17.0
 height = 9.25311
 
-[sub_resource type="Animation" id=9]
+[sub_resource type="Animation" id=3]
 resource_name = "idleLeft"
 loop = true
 tracks/0/type = "value"
@@ -54,8 +54,7 @@ tracks/1/keys = {
 "values": [ true ]
 }
 
-[sub_resource type="Animation" id=3]
-resource_name = "idleRight"
+[sub_resource type="Animation" id=4]
 loop = true
 tracks/0/type = "value"
 tracks/0/path = NodePath("Player:frame")
@@ -82,7 +81,7 @@ tracks/1/keys = {
 "values": [ false ]
 }
 
-[sub_resource type="Animation" id=4]
+[sub_resource type="Animation" id=5]
 length = 0.6
 loop = true
 step = 0.15
@@ -111,7 +110,7 @@ tracks/1/keys = {
 "values": [ 0, 1, 2, 3, 4 ]
 }
 
-[sub_resource type="Animation" id=5]
+[sub_resource type="Animation" id=6]
 length = 0.6
 loop = true
 step = 0.15
@@ -140,15 +139,15 @@ tracks/1/keys = {
 "values": [ 1, 2, 3, 4, 5 ]
 }
 
-[sub_resource type="AnimationNodeStateMachine" id=6]
+[sub_resource type="AnimationNodeStateMachine" id=7]
 
-[sub_resource type="AnimationNodeStateMachinePlayback" id=10]
+[sub_resource type="AnimationNodeStateMachinePlayback" id=8]
 
-[sub_resource type="CapsuleShape2D" id=8]
+[sub_resource type="CapsuleShape2D" id=9]
 radius = 24.0
 height = 48.0
 
-[sub_resource type="RectangleShape2D" id=11]
+[sub_resource type="RectangleShape2D" id=10]
 extents = Vector2( 64, 168 )
 
 [node name="Taman" type="Node2D"]
@@ -163,17 +162,17 @@ position = Vector2( 0, -475 )
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
 position = Vector2( -24, 835 )
-shape = SubResource( 12 )
+shape = SubResource( 1 )
 
 [node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D"]
 position = Vector2( -968, 379 )
 rotation = 1.5708
-shape = SubResource( 12 )
+shape = SubResource( 1 )
 
 [node name="CollisionShape2D4" type="CollisionShape2D" parent="StaticBody2D"]
 position = Vector2( 960, 227 )
 rotation = 1.5708
-shape = SubResource( 12 )
+shape = SubResource( 1 )
 
 [node name="halaman" type="Sprite" parent="."]
 scale = Vector2( 0.75, 0.75 )
@@ -320,20 +319,20 @@ frame = 5
 [node name="CollisionShape2D" type="CollisionShape2D" parent="YSort/Player"]
 position = Vector2( 0, -14.1801 )
 rotation = 1.5708
-shape = SubResource( 1 )
+shape = SubResource( 2 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="YSort/Player"]
 autoplay = "idleRight"
-anims/idleLeft = SubResource( 9 )
-anims/idleRight = SubResource( 3 )
-anims/runLeft = SubResource( 4 )
-anims/runRight = SubResource( 5 )
+anims/idleLeft = SubResource( 3 )
+anims/idleRight = SubResource( 4 )
+anims/runLeft = SubResource( 5 )
+anims/runRight = SubResource( 6 )
 
 [node name="AnimationTree" type="AnimationTree" parent="YSort/Player"]
-tree_root = SubResource( 6 )
+tree_root = SubResource( 7 )
 anim_player = NodePath("../AnimationPlayer")
 active = true
-parameters/playback = SubResource( 10 )
+parameters/playback = SubResource( 8 )
 
 [node name="KerisHandler" parent="YSort/Player" instance=ExtResource( 8 )]
 position = Vector2( 0, -55.4992 )
@@ -354,7 +353,7 @@ script = ExtResource( 13 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="YSort/Player/Hurtbox"]
 position = Vector2( 0, -56 )
-shape = SubResource( 8 )
+shape = SubResource( 9 )
 
 [node name="Keranjang" parent="YSort/Player" instance=ExtResource( 15 )]
 position = Vector2( 0, -24 )
@@ -378,7 +377,7 @@ script = ExtResource( 18 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Keluar"]
 position = Vector2( 936, -64 )
-shape = SubResource( 11 )
+shape = SubResource( 10 )
 
 [connection signal="body_entered" from="Keluar" to="Keluar" method="_on_Keluar_body_entered"]
 

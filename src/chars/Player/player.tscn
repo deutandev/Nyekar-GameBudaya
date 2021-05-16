@@ -12,7 +12,7 @@
 radius = 17.0
 height = 9.25311
 
-[sub_resource type="Animation" id=9]
+[sub_resource type="Animation" id=2]
 resource_name = "idleLeft"
 loop = true
 tracks/0/type = "value"
@@ -158,7 +158,7 @@ shape = SubResource( 1 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 autoplay = "idleRight"
-anims/idleLeft = SubResource( 9 )
+anims/idleLeft = SubResource( 2 )
 anims/idleRight = SubResource( 3 )
 anims/runLeft = SubResource( 4 )
 anims/runRight = SubResource( 5 )

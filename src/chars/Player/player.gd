@@ -57,13 +57,9 @@ func _physics_process(delta):
 	elif Input.is_action_just_released("attack"):
 		yield(animationKeris, "animation_finished")
 		imgKeris.visible = false
-		
-	if Global.bunga >= 20:
-		$Keranjang.monitorable = false
-		$CanvasLayer/Control/BungaLabel.text = "Lanjutkan ke Pesarean"
-		
+	
 	if Global.playerHP <= 0:
-		Global.goto_scene("res://src/scenes/levels/level01.tscn")
+		Global.goto_scene("res://src/scenes/UI/Main.tscn")
 		
 	##if Input.is_action_just_pressed("interact"):
 		##keranjang.visible = true

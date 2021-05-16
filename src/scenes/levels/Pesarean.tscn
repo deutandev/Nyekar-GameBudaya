@@ -19,7 +19,7 @@
 radius = 17.0
 height = 9.25311
 
-[sub_resource type="Animation" id=9]
+[sub_resource type="Animation" id=2]
 resource_name = "idleLeft"
 loop = true
 tracks/0/type = "value"
@@ -135,16 +135,16 @@ tracks/1/keys = {
 
 [sub_resource type="AnimationNodeStateMachine" id=6]
 
-[sub_resource type="AnimationNodeStateMachinePlayback" id=10]
+[sub_resource type="AnimationNodeStateMachinePlayback" id=7]
 
 [sub_resource type="CapsuleShape2D" id=8]
 radius = 24.0
 height = 48.0
 
-[sub_resource type="RectangleShape2D" id=11]
+[sub_resource type="RectangleShape2D" id=9]
 extents = Vector2( 2677, 92 )
 
-[sub_resource type="RectangleShape2D" id=2]
+[sub_resource type="RectangleShape2D" id=10]
 extents = Vector2( 279, 261 )
 
 [node name="Pesarean" type="Node2D"]
@@ -179,7 +179,7 @@ shape = SubResource( 1 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="YSort/Player"]
 autoplay = "idleRight"
-anims/idleLeft = SubResource( 9 )
+anims/idleLeft = SubResource( 2 )
 anims/idleRight = SubResource( 3 )
 anims/runLeft = SubResource( 4 )
 anims/runRight = SubResource( 5 )
@@ -188,7 +188,7 @@ anims/runRight = SubResource( 5 )
 tree_root = SubResource( 6 )
 anim_player = NodePath("../AnimationPlayer")
 active = true
-parameters/playback = SubResource( 10 )
+parameters/playback = SubResource( 7 )
 
 [node name="KerisHandler" parent="YSort/Player" instance=ExtResource( 2 )]
 position = Vector2( 0, -55.4992 )
@@ -262,31 +262,31 @@ position = Vector2( 438, 335 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
 position = Vector2( 2128, 1540 )
-shape = SubResource( 11 )
+shape = SubResource( 9 )
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
 position = Vector2( 2584, -1868 )
-shape = SubResource( 11 )
+shape = SubResource( 9 )
 
 [node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D"]
 position = Vector2( 648, -596 )
 rotation = 2.53073
-shape = SubResource( 11 )
+shape = SubResource( 9 )
 
 [node name="CollisionShape2D4" type="CollisionShape2D" parent="StaticBody2D"]
 position = Vector2( 3816, 748 )
 rotation = 2.53073
-shape = SubResource( 11 )
+shape = SubResource( 9 )
 
 [node name="CollisionShape2D5" type="CollisionShape2D" parent="StaticBody2D"]
 position = Vector2( 4128, -1052 )
 rotation = 1.5708
-shape = SubResource( 11 )
+shape = SubResource( 9 )
 
 [node name="CollisionShape2D6" type="CollisionShape2D" parent="StaticBody2D"]
 position = Vector2( 0, -508 )
 rotation = 1.5708
-shape = SubResource( 11 )
+shape = SubResource( 9 )
 __meta__ = {
 "_edit_lock_": true
 }
@@ -296,7 +296,7 @@ script = ExtResource( 6 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 position = Vector2( 3008, -808 )
-shape = SubResource( 2 )
+shape = SubResource( 10 )
 
 [connection signal="body_entered" from="Area2D" to="Area2D" method="_on_Area2D_body_entered"]
 
