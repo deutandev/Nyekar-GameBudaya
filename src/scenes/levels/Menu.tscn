@@ -1,7 +1,9 @@
-[gd_scene load_steps=28 format=2]
+[gd_scene load_steps=30 format=2]
 
 [ext_resource path="res://src/img/env/joglo/joglo-lantai.png" type="Texture" id=1]
+[ext_resource path="res://addons/dialogic/Fonts/DefaultFont.tres" type="DynamicFont" id=2]
 [ext_resource path="res://src/img/shadow.png" type="Texture" id=3]
+[ext_resource path="res://src/img/UI/judul.png" type="Texture" id=4]
 [ext_resource path="res://src/img/Player/player-sprite.svg" type="Texture" id=5]
 [ext_resource path="res://src/img/env/halaman.png" type="Texture" id=6]
 [ext_resource path="res://src/scenes/env/JogloSoko.tscn" type="PackedScene" id=7]
@@ -10,10 +12,9 @@
 [ext_resource path="res://src/img/Bapak/bapak.svg" type="Texture" id=10]
 [ext_resource path="res://src/scenes/env/Rumput0.tscn" type="PackedScene" id=11]
 [ext_resource path="res://src/scenes/Dialogs/Area2D.gd" type="Script" id=12]
+[ext_resource path="res://src/scenes/levels/Info.gd" type="Script" id=13]
 [ext_resource path="res://src/img/env/joglo/joglo-depan.png" type="Texture" id=14]
-[ext_resource path="res://src/img/UI/hal-kontrol.png" type="Texture" id=15]
-[ext_resource path="res://src/img/UI/hal-info.png" type="Texture" id=16]
-[ext_resource path="res://src/img/UI/mulai0.png" type="Texture" id=17]
+[ext_resource path="res://src/scenes/levels/Kontrol.gd" type="Script" id=15]
 [ext_resource path="res://src/scenes/levels/Mulai.gd" type="Script" id=18]
 
 [sub_resource type="RectangleShape2D" id=1]
@@ -150,7 +151,19 @@ extents = Vector2( 96, 10 )
 [sub_resource type="RectangleShape2D" id=11]
 extents = Vector2( 56, 56 )
 
-[sub_resource type="StyleBoxEmpty" id=12]
+[sub_resource type="StyleBoxFlat" id=12]
+bg_color = Color( 0.0156863, 0.239216, 0.215686, 1 )
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id=13]
+bg_color = Color( 0.0313726, 0.0156863, 0.25098, 1 )
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
 
 [node name="CanvasLayer" type="CanvasLayer"]
 
@@ -160,7 +173,7 @@ position = Vector2( 491, 966 )
 [node name="Level01" type="Node2D" parent="Prolog"]
 
 [node name="Latar" type="Sprite" parent="Prolog/Level01"]
-position = Vector2( 8, -352 )
+position = Vector2( 12, -347 )
 texture = ExtResource( 6 )
 
 [node name="joglo-lantai" type="Sprite" parent="Prolog/Level01"]
@@ -176,20 +189,6 @@ texture = ExtResource( 8 )
 __meta__ = {
 "_edit_lock_": true
 }
-
-[node name="hal-kontrol" type="Sprite" parent="Prolog/Level01/joglo-belakang"]
-position = Vector2( -323, -169 )
-scale = Vector2( 0.328125, 0.328125 )
-texture = ExtResource( 15 )
-
-[node name="hal-info" type="Sprite" parent="Prolog/Level01/joglo-belakang/hal-kontrol"]
-position = Vector2( 1904.76, -6.09521 )
-texture = ExtResource( 16 )
-
-[node name="hal-info2" type="Sprite" parent="Prolog/Level01/joglo-belakang/hal-kontrol"]
-position = Vector2( 984.381, -12.1905 )
-scale = Vector2( 0.606846, 1 )
-texture = ExtResource( 16 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Prolog/Level01/joglo-belakang"]
 
@@ -320,31 +319,72 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Control" type="Control" parent="Control"]
-anchor_left = 0.5
+[node name="Mulai" type="Button" parent="Control"]
+anchor_left = 1.0
 anchor_top = 1.0
-anchor_right = 0.5
+anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = -20.0
-margin_top = -40.0
-margin_right = 20.0
-
-[node name="Mulai" type="Button" parent="Control/Control"]
-anchor_left = 0.5
-anchor_top = 1.0
-anchor_right = 0.5
-anchor_bottom = 1.0
-margin_left = -191.0
-margin_top = -125.0
-margin_right = 233.0
-margin_bottom = -19.0
+margin_left = -440.0
+margin_top = -395.0
+margin_right = -167.0
+margin_bottom = -340.0
+focus_neighbour_top = NodePath("../Info")
+focus_neighbour_bottom = NodePath("../Kontrol")
 custom_styles/hover = SubResource( 12 )
-icon = ExtResource( 17 )
-flat = true
+custom_styles/normal = SubResource( 13 )
+custom_fonts/font = ExtResource( 2 )
+text = "Mulai"
 script = ExtResource( 18 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="Kontrol" type="Button" parent="Control"]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -439.0
+margin_top = -321.0
+margin_right = -166.0
+margin_bottom = -266.0
+focus_neighbour_top = NodePath("../Mulai")
+focus_neighbour_bottom = NodePath("../Info")
+custom_styles/hover = SubResource( 12 )
+custom_styles/normal = SubResource( 13 )
+custom_fonts/font = ExtResource( 2 )
+text = "Kontrol"
+script = ExtResource( 15 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Info" type="Button" parent="Control"]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -440.0
+margin_top = -245.0
+margin_right = -167.0
+margin_bottom = -190.0
+focus_neighbour_top = NodePath("../Kontrol")
+focus_neighbour_bottom = NodePath("../Mulai")
+custom_styles/hover = SubResource( 12 )
+custom_styles/normal = SubResource( 13 )
+custom_fonts/font = ExtResource( 2 )
+text = "Info"
+script = ExtResource( 13 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="judul" type="Sprite" parent="."]
+position = Vector2( 1034.53, 162.724 )
+scale = Vector2( 0.438905, 0.438905 )
+texture = ExtResource( 4 )
+
 [connection signal="body_entered" from="Prolog/Level01/YSort/JogloDepan/Area2D" to="Prolog/Level01/YSort/JogloDepan/Area2D" method="_on_Area2D_body_entered"]
-[connection signal="pressed" from="Control/Control/Mulai" to="Control/Control/Mulai" method="_on_Mulai_pressed"]
+[connection signal="pressed" from="Control/Mulai" to="Control/Mulai" method="_on_Mulai_pressed"]
+[connection signal="pressed" from="Control/Kontrol" to="Control/Kontrol" method="_on_Kontrol_pressed"]
+[connection signal="pressed" from="Control/Info" to="Control/Info" method="_on_Info_pressed"]
