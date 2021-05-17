@@ -4,7 +4,7 @@
 [ext_resource path="res://src/img/shadow.png" type="Texture" id=2]
 [ext_resource path="res://src/shaders/wind_2d.shader" type="Shader" id=3]
 
-[sub_resource type="ShaderMaterial" id=1]
+[sub_resource type="ShaderMaterial" id=3]
 shader = ExtResource( 3 )
 shader_param/speed = 1.0
 shader_param/minStrength = 0.035
@@ -26,7 +26,7 @@ scale = Vector2( 2.25, 1 )
 texture = ExtResource( 2 )
 
 [node name="Sprite" type="Sprite" parent="."]
-material = SubResource( 1 )
+material = SubResource( 3 )
 position = Vector2( 0, -184 )
 texture = ExtResource( 1 )
 
