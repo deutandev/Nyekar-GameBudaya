@@ -4,9 +4,9 @@
 
 [resource]
 shader = ExtResource( 1 )
-shader_param/speed = 1.0
+shader_param/speed = 1.1
 shader_param/minStrength = 0.034
-shader_param/maxStrength = 0.15
+shader_param/maxStrength = 0.207
 shader_param/strengthScale = 100.0
 shader_param/interval = 3.5
 shader_param/detail = 1.0
