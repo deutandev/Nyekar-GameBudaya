@@ -28,6 +28,7 @@ func get_input():
 	return input
 
 func _physics_process(delta):
+	var cur_playerHP = Global.playerHP
 	var direction = get_input()
 	if direction.length() > 0:
 		if direction.x > 0:
@@ -57,11 +58,11 @@ func _physics_process(delta):
 	elif Input.is_action_just_released("attack"):
 		yield(animationKeris, "animation_finished")
 		imgKeris.visible = false
-	
-	if Global.playerHP <= 0:
-		Global.goto_scene("res://src/scenes/UI/Main.tscn")
-		
+
+	if cur_playerHP <= 0:
+		Global.goto_scene("res://src/scenes/levels/Menu.tscn")
 	##if Input.is_action_just_pressed("interact"):
 		##keranjang.visible = true
 	##elif Input.is_action_just_released("interact"):
 	##	keranjang.visible = false
+
