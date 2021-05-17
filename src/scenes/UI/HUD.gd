@@ -2,6 +2,7 @@ extends Control
 
 
 onready var hpbar = $HPLabel/HPBar
+onready var kembangBar = $BungaLabel/Kembang
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -11,6 +12,9 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	var playerHP = Global.playerHP
-	$HPLabel.text = "Player HP: " + str(Global.playerHP)
-	$BungaLabel.text = "Jumlah Kembang: " + str(Global.bunga) + "/20"
+	var jmlKembang = Global.bunga
 	hpbar.value = playerHP
+	kembangBar.value = jmlKembang
+	if jmlKembang >= 20:
+		$BungaLabel/Kembang.visible = false
+		$BungaLabel.text = "Kembang sudah cukup"
