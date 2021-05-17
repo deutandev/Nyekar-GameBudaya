@@ -1,7 +1,7 @@
 extends Control
 
 
-onready var hpbar = $HPBar
+onready var hpbar = $HPLabel/HPBar
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -13,4 +13,4 @@ func _process(delta):
 	var playerHP = Global.playerHP
 	$HPLabel.text = "Player HP: " + str(Global.playerHP)
 	$BungaLabel.text = "Jumlah Kembang: " + str(Global.bunga) + "/20"
-	$HPBar.value = playerHP
+	hpbar.value = playerHP
