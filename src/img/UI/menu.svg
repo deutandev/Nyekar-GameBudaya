@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1920.0px"
-   height="1080.0px"
-   viewBox="0 0 1920.0 1080.0"
+   width="1176.2944"
+   height="546.02667"
+   viewBox="0 0 1176.2944 546.02669"
    version="1.1"
    id="SVGRoot"
    sodipodi:docname="menu.svg"
@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.37708333"
-     inkscape:cx="960"
-     inkscape:cy="540"
+     inkscape:zoom="0.54891748"
+     inkscape:cx="510.8146"
+     inkscape:cy="120.72834"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -44,31 +44,42 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
-    <rect
-       style="fill:#f4a460;stroke:#ffffff;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:1.41;paint-order:stroke fill markers"
-       id="rect1407"
-       width="1920"
-       height="1080"
-       x="0"
-       y="0" />
+     id="layer1"
+     transform="translate(-985.81925,-425.09292)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:165.009px;font-family:'Noto Sans Javanese';-inkscape-font-specification:'Noto Sans Javanese, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#8b4513;stroke:#ffffff;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:1.41;paint-order:stroke fill markers;"
-       x="957.27734"
-       y="202.28932"
-       id="text1411"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:136.626px;font-family:'Noto Sans Javanese';-inkscape-font-specification:'Noto Sans Javanese, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;opacity:0.979545;fill:#8b4513;stroke:#ffffff;stroke-width:15;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:1.41;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       x="1692.8712"
+       y="849.51978"
+       id="text1411"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(0.99771373,1.0022915)"><tspan
          sodipodi:role="line"
          id="tspan1409"
-         x="957.27734"
-         y="202.28932"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:165.009px;font-family:'Noto Sans Javanese';-inkscape-font-specification:'Noto Sans Javanese, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0;fill:#8b4513;">꧋ꦠꦸꦩ꧀ꦥꦼꦔꦤ꧀꧉​</tspan></text>
+         x="1692.8712"
+         y="849.51978"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:136.626px;font-family:'Noto Sans Javanese';-inkscape-font-specification:'Noto Sans Javanese, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#8b4513;stroke:#ffffff;stroke-width:15;stroke-miterlimit:1.41;stroke-dasharray:none;stroke-opacity:1">꧋ꦚꦼꦏꦂ꧉</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:368.516px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;opacity:0.979545;fill:#8b4513;fill-opacity:1;stroke:#ffffff;stroke-width:15;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:1.41;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       x="1563.4797"
+       y="690.04382"
+       id="text2004"
+       transform="scale(0.9988204,1.001181)"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan2002"
+         x="1563.4797"
+         y="690.04382"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:368.516px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke:#ffffff;stroke-width:15;stroke-miterlimit:1.41;stroke-dasharray:none;stroke-opacity:1">Nyekar</tspan></text>
   </g>
 </svg>

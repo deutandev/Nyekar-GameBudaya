@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/kontrol1.png-f18aac75289ab6b8ce3f950de8cc7e71.stex"
+path="res://.import/button_normal.png-03973fd72b575c20b6ef6587ebe8d827.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/img/UI/kontrol1.png"
-dest_files=[ "res://.import/kontrol1.png-f18aac75289ab6b8ce3f950de8cc7e71.stex" ]
+source_file="res://src/img/UI/button_normal.png"
+dest_files=[ "res://.import/button_normal.png-03973fd72b575c20b6ef6587ebe8d827.stex" ]
 
 [params]
 
